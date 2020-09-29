@@ -1,0 +1,6 @@
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\syntax\DeepCopy\bin\Debug\DeepCopy.exe.config
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\syntax\DeepCopy\bin\Debug\DeepCopy.exe
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\syntax\DeepCopy\bin\Debug\DeepCopy.pdb
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\syntax\DeepCopy\obj\Debug\DeepCopy.csproj.CoreCompileInputs.cache
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\syntax\DeepCopy\obj\Debug\DeepCopy.exe
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\syntax\DeepCopy\obj\Debug\DeepCopy.pdb

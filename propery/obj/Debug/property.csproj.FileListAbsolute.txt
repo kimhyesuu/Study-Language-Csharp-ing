@@ -1,0 +1,7 @@
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\syntax\propery\bin\Debug\propery.exe.config
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\syntax\propery\bin\Debug\propery.exe
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\syntax\propery\bin\Debug\propery.pdb
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\syntax\propery\obj\Debug\property.csprojAssemblyReference.cache
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\syntax\propery\obj\Debug\property.csproj.CoreCompileInputs.cache
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\syntax\propery\obj\Debug\propery.exe
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\syntax\propery\obj\Debug\propery.pdb

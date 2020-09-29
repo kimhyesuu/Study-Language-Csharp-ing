@@ -1,0 +1,6 @@
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\syntax\RefReturn\bin\Debug\RefReturn.exe.config
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\syntax\RefReturn\bin\Debug\RefReturn.exe
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\syntax\RefReturn\bin\Debug\RefReturn.pdb
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\syntax\RefReturn\obj\Debug\RefReturn.csproj.CoreCompileInputs.cache
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\syntax\RefReturn\obj\Debug\RefReturn.exe
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\syntax\RefReturn\obj\Debug\RefReturn.pdb

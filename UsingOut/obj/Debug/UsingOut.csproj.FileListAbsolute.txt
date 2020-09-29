@@ -1,0 +1,7 @@
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\syntax\UsingOut\bin\Debug\UsingOut.exe.config
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\syntax\UsingOut\bin\Debug\UsingOut.exe
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\syntax\UsingOut\bin\Debug\UsingOut.pdb
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\syntax\UsingOut\obj\Debug\UsingOut.csprojAssemblyReference.cache
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\syntax\UsingOut\obj\Debug\UsingOut.csproj.CoreCompileInputs.cache
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\syntax\UsingOut\obj\Debug\UsingOut.exe
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\syntax\UsingOut\obj\Debug\UsingOut.pdb

@@ -1,0 +1,7 @@
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\syntax\overriding\bin\Debug\overriding.exe.config
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\syntax\overriding\bin\Debug\overriding.exe
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\syntax\overriding\bin\Debug\overriding.pdb
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\syntax\overriding\obj\Debug\overriding.csprojAssemblyReference.cache
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\syntax\overriding\obj\Debug\overriding.csproj.CoreCompileInputs.cache
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\syntax\overriding\obj\Debug\overriding.exe
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\syntax\overriding\obj\Debug\overriding.pdb

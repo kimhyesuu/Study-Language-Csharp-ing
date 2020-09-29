@@ -1,0 +1,6 @@
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\syntax\ThisConstructor\bin\Debug\ThisConstructor.exe.config
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\syntax\ThisConstructor\bin\Debug\ThisConstructor.exe
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\syntax\ThisConstructor\bin\Debug\ThisConstructor.pdb
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\syntax\ThisConstructor\obj\Debug\ThisConstructor.csproj.CoreCompileInputs.cache
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\syntax\ThisConstructor\obj\Debug\ThisConstructor.exe
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\syntax\ThisConstructor\obj\Debug\ThisConstructor.pdb

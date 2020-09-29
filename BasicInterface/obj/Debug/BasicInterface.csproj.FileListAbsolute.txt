@@ -1,0 +1,7 @@
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\syntax\BasicInterface\bin\Debug\BasicInterface.exe.config
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\syntax\BasicInterface\bin\Debug\BasicInterface.exe
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\syntax\BasicInterface\bin\Debug\BasicInterface.pdb
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\syntax\BasicInterface\obj\Debug\BasicInterface.csprojAssemblyReference.cache
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\syntax\BasicInterface\obj\Debug\BasicInterface.csproj.CoreCompileInputs.cache
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\syntax\BasicInterface\obj\Debug\BasicInterface.exe
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\syntax\BasicInterface\obj\Debug\BasicInterface.pdb
