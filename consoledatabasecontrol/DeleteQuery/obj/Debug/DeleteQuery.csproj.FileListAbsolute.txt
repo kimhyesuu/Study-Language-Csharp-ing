@@ -1,0 +1,11 @@
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Sample\consoledatabasecontrol\DeleteQuery\bin\Debug\DeleteQuery.exe.config
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Sample\consoledatabasecontrol\DeleteQuery\bin\Debug\DeleteQuery.exe
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Sample\consoledatabasecontrol\DeleteQuery\bin\Debug\DeleteQuery.pdb
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Sample\consoledatabasecontrol\DeleteQuery\bin\Debug\MySql.Data.DLL
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Sample\consoledatabasecontrol\DeleteQuery\bin\Debug\Google.Protobuf.dll
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Sample\consoledatabasecontrol\DeleteQuery\bin\Debug\Renci.SshNet.dll
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Sample\consoledatabasecontrol\DeleteQuery\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Sample\consoledatabasecontrol\DeleteQuery\obj\Debug\DeleteQuery.csproj.CoreCompileInputs.cache
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Sample\consoledatabasecontrol\DeleteQuery\obj\Debug\DeleteQuery.csproj.CopyComplete
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Sample\consoledatabasecontrol\DeleteQuery\obj\Debug\DeleteQuery.exe
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Sample\consoledatabasecontrol\DeleteQuery\obj\Debug\DeleteQuery.pdb
