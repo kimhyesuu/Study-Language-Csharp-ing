@@ -5,3 +5,9 @@ C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\Syntax\Syntax\obj\D
 C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\Syntax\Syntax\obj\Debug\Syntax.csproj.CoreCompileInputs.cache
 C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\Syntax\Syntax\obj\Debug\Syntax.exe
 C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\Syntax\Syntax\obj\Debug\Syntax.pdb
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\Csharpsyntax\Syntax\bin\Debug\Syntax.exe.config
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\Csharpsyntax\Syntax\bin\Debug\Syntax.exe
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\Csharpsyntax\Syntax\bin\Debug\Syntax.pdb
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\Csharpsyntax\Syntax\obj\Debug\Syntax.csproj.CoreCompileInputs.cache
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\Csharpsyntax\Syntax\obj\Debug\Syntax.exe
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\Csharpsyntax\Syntax\obj\Debug\Syntax.pdb

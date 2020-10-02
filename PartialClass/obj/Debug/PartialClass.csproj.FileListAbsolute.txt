@@ -1,0 +1,6 @@
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\Csharpsyntax\PartialClass\bin\Debug\PartialClass.exe.config
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\Csharpsyntax\PartialClass\bin\Debug\PartialClass.exe
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\Csharpsyntax\PartialClass\bin\Debug\PartialClass.pdb
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\Csharpsyntax\PartialClass\obj\Debug\PartialClass.csproj.CoreCompileInputs.cache
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\Csharpsyntax\PartialClass\obj\Debug\PartialClass.exe
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\Csharpsyntax\PartialClass\obj\Debug\PartialClass.pdb

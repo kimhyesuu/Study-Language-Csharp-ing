@@ -1,7 +1,6 @@
 C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\Csharpsyntax\GenericDelegate\bin\Debug\GenericDelegate.exe.config
 C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\Csharpsyntax\GenericDelegate\bin\Debug\GenericDelegate.exe
 C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\Csharpsyntax\GenericDelegate\bin\Debug\GenericDelegate.pdb
-C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\Csharpsyntax\GenericDelegate\obj\Debug\GenericDelegate.csprojAssemblyReference.cache
 C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\Csharpsyntax\GenericDelegate\obj\Debug\GenericDelegate.csproj.CoreCompileInputs.cache
 C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\Csharpsyntax\GenericDelegate\obj\Debug\GenericDelegate.exe
 C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\Csharpsyntax\GenericDelegate\obj\Debug\GenericDelegate.pdb

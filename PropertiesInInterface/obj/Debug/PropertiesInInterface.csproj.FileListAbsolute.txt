@@ -1,0 +1,6 @@
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\Csharpsyntax\PropertiesInInterface\bin\Debug\PropertiesInInterface.exe.config
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\Csharpsyntax\PropertiesInInterface\bin\Debug\PropertiesInInterface.exe
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\Csharpsyntax\PropertiesInInterface\bin\Debug\PropertiesInInterface.pdb
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\Csharpsyntax\PropertiesInInterface\obj\Debug\PropertiesInInterface.csproj.CoreCompileInputs.cache
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\Csharpsyntax\PropertiesInInterface\obj\Debug\PropertiesInInterface.exe
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\Csharpsyntax\PropertiesInInterface\obj\Debug\PropertiesInInterface.pdb

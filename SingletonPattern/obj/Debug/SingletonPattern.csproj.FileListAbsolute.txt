@@ -1,0 +1,6 @@
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\Csharpsyntax\SingletonPattern\bin\Debug\SingletonPattern.exe.config
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\Csharpsyntax\SingletonPattern\bin\Debug\SingletonPattern.exe
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\Csharpsyntax\SingletonPattern\bin\Debug\SingletonPattern.pdb
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\Csharpsyntax\SingletonPattern\obj\Debug\SingletonPattern.csproj.CoreCompileInputs.cache
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\Csharpsyntax\SingletonPattern\obj\Debug\SingletonPattern.exe
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\Csharpsyntax\SingletonPattern\obj\Debug\SingletonPattern.pdb

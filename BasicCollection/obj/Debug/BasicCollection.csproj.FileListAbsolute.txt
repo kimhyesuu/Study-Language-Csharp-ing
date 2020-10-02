@@ -1,0 +1,6 @@
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\Csharpsyntax\BasicCollection\bin\Debug\BasicCollection.exe.config
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\Csharpsyntax\BasicCollection\bin\Debug\BasicCollection.exe
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\Csharpsyntax\BasicCollection\bin\Debug\BasicCollection.pdb
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\Csharpsyntax\BasicCollection\obj\Debug\BasicCollection.csproj.CoreCompileInputs.cache
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\Csharpsyntax\BasicCollection\obj\Debug\BasicCollection.exe
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\Csharpsyntax\BasicCollection\obj\Debug\BasicCollection.pdb

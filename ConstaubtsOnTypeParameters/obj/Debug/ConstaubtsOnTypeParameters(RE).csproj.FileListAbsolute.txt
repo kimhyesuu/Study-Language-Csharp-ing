@@ -1,0 +1,6 @@
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\Csharpsyntax\ConstaubtsOnTypeParameters\bin\Debug\ConstaubtsOnTypeParameters.exe.config
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\Csharpsyntax\ConstaubtsOnTypeParameters\bin\Debug\ConstaubtsOnTypeParameters.exe
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\Csharpsyntax\ConstaubtsOnTypeParameters\bin\Debug\ConstaubtsOnTypeParameters.pdb
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\Csharpsyntax\ConstaubtsOnTypeParameters\obj\Debug\ConstaubtsOnTypeParameters(RE).csproj.CoreCompileInputs.cache
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\Csharpsyntax\ConstaubtsOnTypeParameters\obj\Debug\ConstaubtsOnTypeParameters.exe
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\Csharpsyntax\ConstaubtsOnTypeParameters\obj\Debug\ConstaubtsOnTypeParameters.pdb

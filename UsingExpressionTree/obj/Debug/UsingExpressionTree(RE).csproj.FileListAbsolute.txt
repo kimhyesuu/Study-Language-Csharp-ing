@@ -1,0 +1,6 @@
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\Csharpsyntax\UsingExpressionTree\bin\Debug\UsingExpressionTree.exe.config
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\Csharpsyntax\UsingExpressionTree\bin\Debug\UsingExpressionTree.exe
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\Csharpsyntax\UsingExpressionTree\bin\Debug\UsingExpressionTree.pdb
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\Csharpsyntax\UsingExpressionTree\obj\Debug\UsingExpressionTree(RE).csproj.CoreCompileInputs.cache
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\Csharpsyntax\UsingExpressionTree\obj\Debug\UsingExpressionTree.exe
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\Csharpsyntax\UsingExpressionTree\obj\Debug\UsingExpressionTree.pdb

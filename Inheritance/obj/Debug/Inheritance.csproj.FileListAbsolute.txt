@@ -5,3 +5,10 @@ C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\syntax\Inheritance\
 C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\syntax\Inheritance\obj\Debug\Inheritance.csproj.CoreCompileInputs.cache
 C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\syntax\Inheritance\obj\Debug\Inheritance.exe
 C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\syntax\Inheritance\obj\Debug\Inheritance.pdb
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\Csharpsyntax\Inheritance\bin\Debug\Inheritance.exe.config
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\Csharpsyntax\Inheritance\bin\Debug\Inheritance.exe
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\Csharpsyntax\Inheritance\bin\Debug\Inheritance.pdb
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\Csharpsyntax\Inheritance\obj\Debug\Inheritance.csprojAssemblyReference.cache
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\Csharpsyntax\Inheritance\obj\Debug\Inheritance.csproj.CoreCompileInputs.cache
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\Csharpsyntax\Inheritance\obj\Debug\Inheritance.exe
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\Csharpsyntax\Inheritance\obj\Debug\Inheritance.pdb

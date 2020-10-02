@@ -1,0 +1,6 @@
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\Csharpsyntax\BasicDelegate\bin\Debug\BasicDelegate.exe.config
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\Csharpsyntax\BasicDelegate\bin\Debug\BasicDelegate.exe
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\Csharpsyntax\BasicDelegate\bin\Debug\BasicDelegate.pdb
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\Csharpsyntax\BasicDelegate\obj\Debug\BasicDelegate.csproj.CoreCompileInputs.cache
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\Csharpsyntax\BasicDelegate\obj\Debug\BasicDelegate.exe
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\Csharpsyntax\BasicDelegate\obj\Debug\BasicDelegate.pdb

@@ -1,0 +1,6 @@
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\Csharpsyntax\BasicLambda2\bin\Debug\BasicLambda2.exe.config
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\Csharpsyntax\BasicLambda2\bin\Debug\BasicLambda2.exe
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\Csharpsyntax\BasicLambda2\bin\Debug\BasicLambda2.pdb
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\Csharpsyntax\BasicLambda2\obj\Debug\BasicLambda2.csproj.CoreCompileInputs.cache
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\Csharpsyntax\BasicLambda2\obj\Debug\BasicLambda2.exe
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\Csharpsyntax\BasicLambda2\obj\Debug\BasicLambda2.pdb

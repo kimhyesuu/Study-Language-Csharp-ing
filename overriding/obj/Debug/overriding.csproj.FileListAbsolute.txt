@@ -5,3 +5,9 @@ C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\syntax\overriding\o
 C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\syntax\overriding\obj\Debug\overriding.csproj.CoreCompileInputs.cache
 C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\syntax\overriding\obj\Debug\overriding.exe
 C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\syntax\overriding\obj\Debug\overriding.pdb
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\Csharpsyntax\overriding\bin\Debug\overriding.exe.config
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\Csharpsyntax\overriding\bin\Debug\overriding.exe
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\Csharpsyntax\overriding\bin\Debug\overriding.pdb
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\Csharpsyntax\overriding\obj\Debug\overriding.csproj.CoreCompileInputs.cache
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\Csharpsyntax\overriding\obj\Debug\overriding.exe
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\Csharpsyntax\overriding\obj\Debug\overriding.pdb

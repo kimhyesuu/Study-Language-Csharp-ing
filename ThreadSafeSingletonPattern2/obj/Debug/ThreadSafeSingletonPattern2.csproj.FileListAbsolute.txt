@@ -1,0 +1,6 @@
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\Csharpsyntax\ThreadSafeSingletonPattern2\bin\Debug\ThreadSafeSingletonPattern2.exe.config
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\Csharpsyntax\ThreadSafeSingletonPattern2\bin\Debug\ThreadSafeSingletonPattern2.exe
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\Csharpsyntax\ThreadSafeSingletonPattern2\bin\Debug\ThreadSafeSingletonPattern2.pdb
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\Csharpsyntax\ThreadSafeSingletonPattern2\obj\Debug\ThreadSafeSingletonPattern2.csproj.CoreCompileInputs.cache
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\Csharpsyntax\ThreadSafeSingletonPattern2\obj\Debug\ThreadSafeSingletonPattern2.exe
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\Csharpsyntax\ThreadSafeSingletonPattern2\obj\Debug\ThreadSafeSingletonPattern2.pdb
