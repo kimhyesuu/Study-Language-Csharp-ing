@@ -1,0 +1,7 @@
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\Csharpsyntax\ReflectionAndAttribute\bin\Debug\ReflectionAndAttribute.exe.config
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\Csharpsyntax\ReflectionAndAttribute\bin\Debug\ReflectionAndAttribute.exe
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\Csharpsyntax\ReflectionAndAttribute\bin\Debug\ReflectionAndAttribute.pdb
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\Csharpsyntax\ReflectionAndAttribute\obj\Debug\ReflectionAndAttribute.csprojAssemblyReference.cache
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\Csharpsyntax\ReflectionAndAttribute\obj\Debug\ReflectionAndAttribute.csproj.CoreCompileInputs.cache
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\Csharpsyntax\ReflectionAndAttribute\obj\Debug\ReflectionAndAttribute.exe
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\Csharpsyntax\ReflectionAndAttribute\obj\Debug\ReflectionAndAttribute.pdb
