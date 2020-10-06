@@ -1,0 +1,58 @@
+﻿<Window x:Class="Listview.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Listview"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid Name="dummygrid" Visibility="Hidden">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="0.5*"></ColumnDefinition>
+                <ColumnDefinition Width="0.2*"></ColumnDefinition>
+                <ColumnDefinition Width="0.1*"></ColumnDefinition>
+                <ColumnDefinition Width="0.2*"></ColumnDefinition>
+                <ColumnDefinition Width="150"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Border Grid.Column="0" Name="dummywidth1"></Border>
+            <Border Grid.Column="1" Name="dummywidth2"></Border>
+            <Border Grid.Column="2" Name="dummywidth3"></Border>
+            <Border Grid.Column="3" Name="dummywidth4"></Border>
+            <Border Grid.Column="5" Name="dummywidth5"></Border>
+        </Grid>
+        <ListView  Name="Installer_LV" Grid.Row="1" ItemContainerStyle="{StaticResource LV_ItemStyle}" ScrollViewer.HorizontalScrollBarVisibility="Disabled"  AlternationCount="2">
+            <ListView.View>
+                <GridView ColumnHeaderContainerStyle="{StaticResource LV_HeaderStyle}">
+                    <GridViewColumn  Width="{Binding ElementName=dummywidth1, Path=ActualWidth}"  DisplayMemberBinding="{Binding DisplayName}" >
+                        <GridViewColumn.Header>
+                            <GridViewColumnHeader Tag="DisplayName" Click="InstallerLV_HeaderClick">Name</GridViewColumnHeader>
+                        </GridViewColumn.Header>
+                    </GridViewColumn>
+                    <GridViewColumn  Width="{Binding ElementName=dummywidth2, Path=ActualWidth}" DisplayMemberBinding="{Binding Publisher}">
+                        <GridViewColumn.Header>
+                            <GridViewColumnHeader Tag="Publisher" Click="InstallerLV_HeaderClick">Publisher</GridViewColumnHeader>
+                        </GridViewColumn.Header>
+                    </GridViewColumn>
+                    <GridViewColumn  Width="{Binding ElementName=dummywidth3, Path=ActualWidth}" DisplayMemberBinding="{Binding Version}">
+                        <GridViewColumn.Header>
+                            <GridViewColumnHeader Tag="Version" Click="InstallerLV_HeaderClick">Version</GridViewColumnHeader>
+                        </GridViewColumn.Header>
+                    </GridViewColumn>
+                    <GridViewColumn  Width="{Binding ElementName=dummywidth4, Path=ActualWidth}" DisplayMemberBinding="{Binding Size}">
+                        <GridViewColumn.Header>
+                            <GridViewColumnHeader Tag="Size" Click="InstallerLV_HeaderClick">Size</GridViewColumnHeader>
+                        </GridViewColumn.Header>
+                    </GridViewColumn>
+                    <GridViewColumn Header="Action" Width="150">
+                        <GridViewColumn.CellTemplate>
+                            <DataTemplate>
+                                <Button  Height="38" Width="130" Style="{DynamicResource RoundedButton}" Content="{Binding Status}" Tag="{Binding ModuleId}"  HorizontalAlignment="Center" VerticalAlignment="Center" Click="onActionClick"></Button>
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+                    </GridViewColumn>
+                </GridView>
+            </ListView.View>
+        </ListView>
+    </Grid>
+</Window>
