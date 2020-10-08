@@ -3,3 +3,8 @@ C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\wpfTest\Listview\ob
 C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\wpfTest\Listview\obj\Debug\App.g.cs
 C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\wpfTest\Listview\obj\Debug\Listview_MarkupCompile.cache
 C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\wpfTest\Listview\obj\Debug\Listview_MarkupCompile.lref
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\Csharpsyntax\Wpf\wpfTest\Listview\obj\Debug\Listview.csprojAssemblyReference.cache
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\Csharpsyntax\Wpf\wpfTest\Listview\obj\Debug\MainWindow.g.cs
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\Csharpsyntax\Wpf\wpfTest\Listview\obj\Debug\App.g.cs
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\Csharpsyntax\Wpf\wpfTest\Listview\obj\Debug\Listview_MarkupCompile.cache
+C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\Csharpsyntax\Wpf\wpfTest\Listview\obj\Debug\Listview_MarkupCompile.lref

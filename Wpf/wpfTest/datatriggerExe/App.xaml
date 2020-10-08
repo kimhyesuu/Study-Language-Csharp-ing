@@ -1,0 +1,36 @@
+﻿<Application x:Class="datatriggerExe.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:datatriggerExe"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+
+        <DataTemplate x:Key="WarningTemplate" DataType="{x:Type ListViewItem}">
+            <!-- item Template-->
+            <Border x:Name="_border" BorderThickness="1">
+                <TextBlock x:Name="_textBlock" Text="{Binding}"/>
+            </Border>
+            
+            <!--Trigger-->
+            <DataTemplate.Triggers>
+                <DataTrigger Binding="{Binding}" Value="Safe">
+                    <Setter Property="Foreground" Value="Green" TargetName="_textBlock"/>
+                    <Setter Property="BorderBrush" Value="Green" TargetName="_border"/>
+                </DataTrigger>
+                <DataTrigger Binding="{Binding}" Value="Caution">
+                    <Setter Property="Foreground" Value="Gold" TargetName="_textBlock"/>
+                    <Setter Property="BorderBrush" Value="Gold" TargetName="_border"/>
+                </DataTrigger>
+                <DataTrigger Binding="{Binding}" Value="Danger">
+                    <Setter Property="Foreground" Value="orangeRed" TargetName="_textBlock"/>
+                    <Setter Property="BorderBrush" Value="orangeRed" TargetName="_border"/>
+                </DataTrigger>
+                <DataTrigger Binding="{Binding}" Value="Lethal">
+                    <Setter Property="Foreground" Value="Red" TargetName="_textBlock"/>
+                    <Setter Property="BorderBrush" Value="Red" TargetName="_border"/>
+                </DataTrigger>
+            </DataTemplate.Triggers>
+        </DataTemplate>
+        
+    </Application.Resources>
+</Application>

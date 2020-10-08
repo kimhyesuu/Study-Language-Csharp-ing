@@ -1,0 +1,57 @@
+﻿<Window x:Class="WPFDemoUI.Views.ShellView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFDemoUI.Views"
+        mc:Ignorable="d"
+        Title="ShellView" Height="300" Width="300" FontSize="16" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="20"/>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="20"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="20"/>
+        </Grid.RowDefinitions>
+
+        <!--Row 1-->
+        <TextBlock Text="{Binding Path=FullName, Mode=OneWay}"  Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2"/>
+
+        <!--Row 2-->
+        <TextBox MinWidth="100" Grid.Row="2" Grid.Column="1" x:Name="FirstName" />
+        <TextBox MinWidth="100" Grid.Row="2" Grid.Column="2" x:Name="LastName" />
+
+        <!--Row 3-->
+        <ComboBox Grid.Row="3" Grid.Column="1" x:Name="People"
+                  SelectedItem="{Binding Path=SelectedPerson, Mode=OneWayToSource}"
+                  DisplayMemberPath="FirstName"/>
+        <TextBlock Grid.Row="3" Grid.Column="2" x:Name="SelectedPerson_LastName"/>
+
+        <!--Row 4-->
+        <Button Grid.Row="4" Grid.Column="1" x:Name="ClearTextMethod" Content="Clear Text"/>
+
+        <!--Row 5-->
+        <Button x:Name="LoadPageOne" Grid.Row="5" Grid.Column="1" Content="LoadPageOne" />
+        <Button x:Name="LoadPageTwo" Grid.Row="5" Grid.Column="2" Content="LoadPageTwo"/>
+
+        <!--Row 6-->
+        <ContentControl Grid.Row="6" Grid.Column="1" Grid.ColumnSpan="5" 
+                        x:Name="ActivateItem"  Grid.RowSpan="2"/>
+
+
+    </Grid>
+</Window>

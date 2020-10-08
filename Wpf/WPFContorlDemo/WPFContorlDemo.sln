@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1209
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFDemoUI", "WPFDemoUI\WPFDemoUI.csproj", "{47CFC147-271C-4455-A87F-2B9EA7E4C6A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoLib", "DemoLib\DemoLib.csproj", "{9865728B-D451-4679-8F79-DA404AEEA728}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{47CFC147-271C-4455-A87F-2B9EA7E4C6A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47CFC147-271C-4455-A87F-2B9EA7E4C6A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47CFC147-271C-4455-A87F-2B9EA7E4C6A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47CFC147-271C-4455-A87F-2B9EA7E4C6A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9865728B-D451-4679-8F79-DA404AEEA728}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9865728B-D451-4679-8F79-DA404AEEA728}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9865728B-D451-4679-8F79-DA404AEEA728}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9865728B-D451-4679-8F79-DA404AEEA728}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {01EDF9EE-826C-45BA-B3B3-168C004C4787}
+	EndGlobalSection
+EndGlobal
