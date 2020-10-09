@@ -1,0 +1,13 @@
+
+Prism 설명서
+
+common
+
+1. xmlns:core="clr-namespace:PrismOutlook.Core;assembly=PrismOutlook.Core" 유저컨트롤 라이브러리를 사용할 때
+   먼저 이 코드를 작성하고 PrismOutlook를 리빌드할 것
+
+seq 
+
+1. VSIX prism 깔기(prism Template pack)
+2. Outlook 생성 후 모듈 생성 - 모델 생성
+3. App에서 ConfigureModuleCatalog(ovrride) 여기서 
