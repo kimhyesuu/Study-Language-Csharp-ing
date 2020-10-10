@@ -1,12 +1,10 @@
-﻿<UserControl x:Class="PrismOutlook.Modules.Mail.Menus.HomeTab"
+﻿<ribbon:RibbonTab x:Class="PrismOutlook.Modules.Mail.Menus.HomeTab"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
-             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"          
              xmlns:local="clr-namespace:PrismOutlook.Modules.Mail.Menus"
-             mc:Ignorable="d" 
-            >
-    <Grid>
-        <TextBlock Text="PrismOutlook.Modules.Mail.Menus.HomeTab" />
-    </Grid>
-</UserControl>
+             xmlns:ribbon="clr-namespace:Microsoft.Windows.Controls.Ribbon;assembly=RibbonControlsLibrary"
+              >
+    <ribbon:RibbonGroup>
+        <ribbon:RibbonButton Content="Home" />
+    </ribbon:RibbonGroup>
+</ribbon:RibbonTab>

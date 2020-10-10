@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.Windows.Controls.Ribbon;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -15,10 +16,8 @@ using System.Windows.Shapes;
 
 namespace PrismOutlook.Modules.Mail.Menus
 {
-   /// <summary>
-   /// Interaction logic for HomeTab.xaml
-   /// </summary>
-   public partial class HomeTab : UserControl
+
+   public partial class HomeTab : RibbonTab
    {
       public HomeTab()
       {

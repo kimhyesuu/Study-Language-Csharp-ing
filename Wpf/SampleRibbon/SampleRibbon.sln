@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.28307.1209
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleRibbon", "SampleRibbon\SampleRibbon.csproj", "{C77741D2-EB9E-49BB-9458-610952AB553F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SamplePrismRibbon", "SamplePrismRibbon\SamplePrismRibbon.csproj", "{712AE4EE-1D67-473A-A6C5-FE63EC65222B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Module", "Module", "{811D0DC2-A749-4B1E-A918-56822AB7ABCE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,10 @@ Global
 		{C77741D2-EB9E-49BB-9458-610952AB553F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C77741D2-EB9E-49BB-9458-610952AB553F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C77741D2-EB9E-49BB-9458-610952AB553F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{712AE4EE-1D67-473A-A6C5-FE63EC65222B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{712AE4EE-1D67-473A-A6C5-FE63EC65222B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{712AE4EE-1D67-473A-A6C5-FE63EC65222B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{712AE4EE-1D67-473A-A6C5-FE63EC65222B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

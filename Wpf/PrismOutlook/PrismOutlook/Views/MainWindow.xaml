@@ -1,4 +1,4 @@
-﻿<Window x:Class="PrismOutlook.Views.MainWindow"
+﻿<ribbon:RibbonWindow x:Class="PrismOutlook.Views.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:wpfTool="clr-namespace:Xceed.Wpf.Toolkit;assembly=Xceed.Wpf.Toolkit"
@@ -8,23 +8,14 @@
         prism:ViewModelLocator.AutoWireViewModel="True"
         Title="{Binding Title}" Height="350" Width="525">
     <Grid>
-     
         
-            <DockPanel LastChildFill="True">
-            <ribbon:Ribbon prism:RegionManager.RegionName="{x:Static core:RegionNames.RibbonRegion}" DockPanel.Dock="Top">
-
-            </ribbon:Ribbon>
-
+        <DockPanel LastChildFill="True">
             <ScrollViewer>
-                    <ListBox DockPanel.Dock="Left" Width="200">
+                <ListBox DockPanel.Dock="Left" Width="200">
 
-                    </ListBox>
-                </ScrollViewer>
-                <ContentControl prism:RegionManager.RegionName="{x:Static core:RegionNames.ContentRegion}" />
-            </DockPanel>
-
-
-   
-
+                </ListBox>
+            </ScrollViewer>
+            <ContentControl prism:RegionManager.RegionName="{x:Static core:RegionNames.ContentRegion}" />
+        </DockPanel>
     </Grid>
-</Window>
+</ribbon:RibbonWindow>
