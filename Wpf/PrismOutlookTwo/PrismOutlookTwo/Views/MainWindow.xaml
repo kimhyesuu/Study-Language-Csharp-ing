@@ -1,0 +1,33 @@
+﻿<Window x:Class="PrismOutlookTwo.Views.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:prism="http://prismlibrary.com/"        
+        xmlns:core="clr-namespace:PrismOutlookTwo.Core;assembly=PrismOutlookTwo.Core"
+        xmlns:rb="clr-namespace:System.Windows.Controls.Ribbon.Primitives;assembly=System.Windows.Controls.Ribbon"
+        prism:ViewModelLocator.AutoWireViewModel="True"
+        Title="{Binding Title}" Height="350" Width="525">
+    
+    <DockPanel >
+        <Ribbon DockPanel.Dock="Top" prism:RegionManager.RegionName="{x:Static core:RegionNames.RibbonGroupRegion}">
+
+        </Ribbon>
+        <DockPanel LastChildFill="True">
+            <TextBlock DockPanel.Dock="Left" Width="Auto"/>
+            <ListBox DockPanel.Dock="Bottom" Width="Auto" prism:RegionManager.RegionName="{x:Static core:RegionNames.OutlookGroupRegion}" >
+                
+            </ListBox>
+            <Border >
+                <Border.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="#FFAFCDDA" Offset="1"/>
+                        <GradientStop Color="#FF49ABD7"/>
+                    </LinearGradientBrush>
+                </Border.Background>
+                <ContentControl prism:RegionManager.RegionName="{x:Static core:RegionNames.ContentRegion}"/>
+            </Border>
+           
+        </DockPanel>
+        
+    </DockPanel>
+
+</Window>

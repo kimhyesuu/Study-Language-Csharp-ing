@@ -48,6 +48,8 @@ namespace overriding
          Console.WriteLine("\nCreating WarMachine...");
          ArmorSuite warmachine = new WarMachine();
          warmachine.Initialize();
+
+         Console.ReadKey();
       }
    }
 }

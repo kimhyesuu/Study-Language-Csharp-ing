@@ -1,19 +1,21 @@
-﻿<Application x:Class="NavigationMenu.App"
+﻿<prism:PrismApplication x:Class="PrismOutlookTwo.App"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:local="clr-namespace:NavigationMenu"
+	         xmlns:prism="http://prismlibrary.com/"
              xmlns:iconPacks="http://metro.mahapps.com/winfx/xaml/iconpacks"
-             StartupUri="MainWindow.xaml">
+             xmlns:system="clr-namespace:System;assembly=mscorlib"
+             xmlns:local="clr-namespace:PrismOutlookTwo">
     <Application.Resources>
         <SolidColorBrush x:Key="PrimaryDarkBrush" Color="#FF0D2738"/>
         <SolidColorBrush x:Key="PrimaryLightBrush" Color="#FF1F90FF"/>
+        <SolidColorBrush x:Key="PrimaryShineBrush" Color="#FF3050A8"/>
 
         <Style x:Key="NavigationListBoxStyle" TargetType="{x:Type ListBox}">
             <Setter Property="Background" Value="{StaticResource PrimaryDarkBrush}"/>
             <Setter Property="ScrollViewer.HorizontalScrollBarVisibility" Value="Disabled"/>
             <Setter Property="ScrollViewer.VerticalScrollBarVisibility" Value="Disabled"/>
-            <Setter Property="VerticalContentAlignment" Value="Center"/>
             <Setter Property="HorizontalContentAlignment" Value="Center"/>
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
             <Setter Property="SelectedIndex" Value="0"/>
             <Setter Property="Width" Value="Auto"/>
             <Setter Property="Template">
@@ -22,9 +24,9 @@
                         <Border Background="{TemplateBinding Background}"
                                 BorderThickness="0"
                                 Padding="0"
-                                SnapsToDevicePixels="true">
+                                SnapsToDevicePixels="True">
                             <ScrollViewer Padding="{TemplateBinding Padding}"
-                                          Focusable="false">
+                                          Focusable="False">
                                 <ItemsPresenter SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}"/>
                             </ScrollViewer>
                         </Border>
@@ -38,8 +40,8 @@
             <Setter Property="Foreground" Value="{StaticResource PrimaryLightBrush}"/>
             <Setter Property="Margin" Value="-1"/>
             <Setter Property="ToolTip" Value="{Binding}"/>
-            <Setter Property="HorizontalContentAlignment" 
-                    Value="{Binding HorizontalContentAlignment, RelativeSource={RelativeSource AncestorType={x:Type ItemsControl}}}"/>
+            <Setter Property="HorizontalContentAlignment"
+                    Value="{Binding Path=HorizontalContentAlignment, RelativeSource={RelativeSource AncestorType={x:Type ItemsControl}}}"/>
             <Setter Property="VerticalContentAlignment" 
                     Value="{Binding VerticalContentAlignment, RelativeSource={RelativeSource AncestorType={x:Type ItemsControl}}}"/>
             <Setter Property="Template">
@@ -57,20 +59,18 @@
                         </Border>
                         <ControlTemplate.Triggers>
                             <Trigger Property="IsSelected" Value="true">
-                                <Setter TargetName="Bd" Property="Background" Value="{StaticResource PrimaryLightBrush}"/>
+                                <Setter Property="Background" TargetName="Bd" Value="{StaticResource PrimaryLightBrush}"/>
                                 <Setter Property="Foreground" Value="White"/>
                             </Trigger>
                             <MultiTrigger>
                                 <MultiTrigger.Conditions>
-                                    <Condition Property="IsSelected" Value="true"/>
-                                    <Condition Property="Selector.IsSelectionActive" Value="false"/>
+                                    <Condition Property="IsMouseOver" Value="True" />
                                 </MultiTrigger.Conditions>
-                                <Setter Property="Background" TargetName="Bd" Value="{StaticResource PrimaryLightBrush}"/>
-                                <Setter Property="Foreground" Value="White"/>
+                                <MultiTrigger.Setters>
+                                    <Setter Property="Background" TargetName="Bd" Value="{StaticResource PrimaryShineBrush}"/>
+                                    <Setter Property="Foreground" Value="White"/>
+                                </MultiTrigger.Setters>
                             </MultiTrigger>
-                            <Trigger Property="IsEnabled" Value="false">
-                                <Setter Property="Foreground" Value="{DynamicResource {x:Static SystemColors.GrayTextBrushKey}}"/>
-                            </Trigger>
                         </ControlTemplate.Triggers>
                     </ControlTemplate>
                 </Setter.Value>
@@ -81,7 +81,7 @@
             <iconPacks:PackIconMaterialDesign x:Name="MenuItemIcon" VerticalAlignment="Center" 
                                               HorizontalAlignment="Center" Margin="12"/>
             <DataTemplate.Triggers>
-                <DataTrigger Binding="{Binding}" Value="Home">
+                <DataTrigger Binding="{Binding }" Value="Home">
                     <Setter TargetName="MenuItemIcon" Property="Kind" Value="Home"/>
                 </DataTrigger>
                 <DataTrigger Binding="{Binding}" Value="Email">
@@ -93,14 +93,10 @@
             </DataTemplate.Triggers>
         </DataTemplate>
 
-        <DataTemplate x:Key="HomeViewTemplate">
-            <local:HomeView/>
-        </DataTemplate>
-        <DataTemplate x:Key="EmailViewTemplate">
-            <local:EmailView/>
-        </DataTemplate>
-        <DataTemplate x:Key="CloudViewTemplate">
-            <local:CloudView/>
-        </DataTemplate>
+        <x:Array x:Key="NavigationMenuItems" Type="system:String">
+            <system:String>Home</system:String>
+            <system:String>Email</system:String>
+            <system:String>Cloud</system:String>
+        </x:Array>
     </Application.Resources>
-</Application>
+</prism:PrismApplication>

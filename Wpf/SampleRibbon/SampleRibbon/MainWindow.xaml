@@ -1,4 +1,4 @@
-﻿<Window
+﻿<RibbonWindow
         x:Class="SampleRibbon.MainWindow"      
         xmlns:r2="clr-namespace:System.Windows.Controls.Ribbon.Primitives;assembly=System.Windows.Controls.Ribbon"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
@@ -12,8 +12,8 @@
     <Grid>
         <DockPanel>
             <Ribbon>
-                <r2:RibbonTabsPanel></r2:RibbonTabsPanel>
+                
             </Ribbon>
         </DockPanel>
     </Grid>
-</Window>
+</RibbonWindow>
