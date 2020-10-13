@@ -50,6 +50,7 @@ namespace BasicInterface
 
       public ClimateMonitor(ILogger logger)
       {
+         // build하면서 객체 생성했음
          this.logger = logger;
       }
 

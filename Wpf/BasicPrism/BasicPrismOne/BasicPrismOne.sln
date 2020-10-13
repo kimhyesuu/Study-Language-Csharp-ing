@@ -1,0 +1,65 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1259
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicPrismOne", "BasicPrismOne\BasicPrismOne.csproj", "{FA59D1C3-EBCE-421A-ACB0-6D1E8818E077}"
+	ProjectSection(ProjectDependencies) = postProject
+		{859CCA61-E9FA-4DA9-9D5D-D43C2C178651} = {859CCA61-E9FA-4DA9-9D5D-D43C2C178651}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "INFO", "INFO", "{626F27CC-9C18-4270-BEB1-A6BF77CA73F5}"
+	ProjectSection(SolutionItems) = preProject
+		설명서.txt = 설명서.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{267311C5-0436-420C-87B3-541E65E1FBD2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicPrism.Core", "BasicPrism.Core\BasicPrism.Core.csproj", "{859CCA61-E9FA-4DA9-9D5D-D43C2C178651}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToolbarModuleA", "Modules\ToolbarModuleA\ToolbarModuleA.csproj", "{968A9B02-2689-4B45-B817-AA12A2A9BC83}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FA59D1C3-EBCE-421A-ACB0-6D1E8818E077}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA59D1C3-EBCE-421A-ACB0-6D1E8818E077}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA59D1C3-EBCE-421A-ACB0-6D1E8818E077}.Debug|x86.ActiveCfg = Debug|x86
+		{FA59D1C3-EBCE-421A-ACB0-6D1E8818E077}.Debug|x86.Build.0 = Debug|x86
+		{FA59D1C3-EBCE-421A-ACB0-6D1E8818E077}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA59D1C3-EBCE-421A-ACB0-6D1E8818E077}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA59D1C3-EBCE-421A-ACB0-6D1E8818E077}.Release|x86.ActiveCfg = Release|x86
+		{FA59D1C3-EBCE-421A-ACB0-6D1E8818E077}.Release|x86.Build.0 = Release|x86
+		{859CCA61-E9FA-4DA9-9D5D-D43C2C178651}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{859CCA61-E9FA-4DA9-9D5D-D43C2C178651}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{859CCA61-E9FA-4DA9-9D5D-D43C2C178651}.Debug|x86.ActiveCfg = Debug|x86
+		{859CCA61-E9FA-4DA9-9D5D-D43C2C178651}.Debug|x86.Build.0 = Debug|x86
+		{859CCA61-E9FA-4DA9-9D5D-D43C2C178651}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{859CCA61-E9FA-4DA9-9D5D-D43C2C178651}.Release|Any CPU.Build.0 = Release|Any CPU
+		{859CCA61-E9FA-4DA9-9D5D-D43C2C178651}.Release|x86.ActiveCfg = Release|x86
+		{859CCA61-E9FA-4DA9-9D5D-D43C2C178651}.Release|x86.Build.0 = Release|x86
+		{968A9B02-2689-4B45-B817-AA12A2A9BC83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{968A9B02-2689-4B45-B817-AA12A2A9BC83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{968A9B02-2689-4B45-B817-AA12A2A9BC83}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{968A9B02-2689-4B45-B817-AA12A2A9BC83}.Debug|x86.Build.0 = Debug|Any CPU
+		{968A9B02-2689-4B45-B817-AA12A2A9BC83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{968A9B02-2689-4B45-B817-AA12A2A9BC83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{968A9B02-2689-4B45-B817-AA12A2A9BC83}.Release|x86.ActiveCfg = Release|Any CPU
+		{968A9B02-2689-4B45-B817-AA12A2A9BC83}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{968A9B02-2689-4B45-B817-AA12A2A9BC83} = {267311C5-0436-420C-87B3-541E65E1FBD2}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPath = packages\Unity.2.1.505.2\lib\NET35
+		SolutionGuid = {2B302BF7-4979-4D51-A5BC-759165FA86D4}
+	EndGlobalSection
+EndGlobal

@@ -26,7 +26,7 @@ namespace PrismWpfDlgService.ViewModels
 
             });
 
-            IDialogWindow
+            
         }
 
         //2번째

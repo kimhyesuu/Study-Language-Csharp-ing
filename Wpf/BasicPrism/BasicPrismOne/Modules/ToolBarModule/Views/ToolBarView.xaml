@@ -1,0 +1,17 @@
+﻿<UserControl x:Class="ToolBarModule.Views.ToolBarView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mods="clr-namespace:ToolBarModule.ViewModels"   
+             DataContext="{Binding Source= mainViewModelLocator}">
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <mods:ToolBarViewModel x:Key="mainViewModelLocator"></mods:ToolBarViewModel>
+        </ResourceDictionary>
+    </UserControl.Resources>
+    <Grid>
+        <ToolBar Width="200" >
+            <Button Content="Item 1 Test"/>
+            <Button Content="Item 2 Try"/>
+        </ToolBar>
+    </Grid>
+</UserControl>

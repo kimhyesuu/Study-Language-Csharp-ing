@@ -1,0 +1,36 @@
+https://www.c-sharpcorner.com/UploadFile/777cc4/introduction-to-prism/
+
+PART 1: Install PRISM and create a PRISM window
+
+1. Create a new WPF Application : Name = IntroToPrism
+2. Remove the default MainWindow.xaml
+3. Remove StartupUri="MainWindow.xaml" from the App.xaml file.
+4. Go to Tools - Nuget Package Manager - Package Manager Console.
+5. First we will add Prism. (Prism.Wpf, Prism.Unity, Prism.UnityExtensions)
+
+
+- Install-Package Prism.Wpf -Version 6.1.0
+- Install-Package Unity -Version 2.1.505.2
+- Install-Package Prism.UnityExtensions -Version 4.1.0
+
+6. Now add a new WPF Window and name it PrismAppShell.xaml.
+7. Create a new class Bootstrapper.cs.
+8. Then derive the Bootstrapper class from UnityBootstrapper
+class, i.e. UnityBootstrapper is now the base class.
+9. Now Goto - App.xaml.cs,
+10. Override method OnStartup.
+11. In the MainWindow.xaml add a Label with any Text.
+12. Now Run the program, your new window will show.
+
+
+PART 2 : Create UI Regions
+
+1. Now in PrismAppShell.xaml - add namespace
+2. Now we will create three regions Header, Body and Footer
+3. Now run the application.
+
+
+PART 3: Create Modules and map them the predefined regions, ie Header, Body and Footer
+
+1. Add new project PRISMMODULES and delete MainWindows.xaml again,
+2. Create a new folder View and add a new WPF window to the project and name it ToolbarWindow.xaml.

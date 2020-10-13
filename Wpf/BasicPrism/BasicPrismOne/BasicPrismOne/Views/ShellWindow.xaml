@@ -1,0 +1,26 @@
+﻿<Window x:Class="BasicPrismOne.Views.ShellWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        xmlns:prism="http://www.codeplex.com/prism"    
+        WindowStartupLocation="CenterScreen"
+        Title="ShellWindow" Height="450" Width="800">
+    
+    <Grid x:Name="LayoutRoot">
+        <DockPanel  LastChildFill="True" HorizontalAlignment="Stretch"   
+               Name="dockPanel1" VerticalAlignment="Stretch">
+            <StackPanel Orientation="Horizontal" DockPanel.Dock="Top"   
+                  Background="#FFCCD4F8" Height="25">
+                <ContentControl prism:RegionManager.RegionName="HeaderRegion" Background="#FF93E094"></ContentControl>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" DockPanel.Dock="Left" Background="#FFD9E1EF" >
+                
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" DockPanel.Dock="Bottom" Background="#FFD9E1EF" Height="25">
+                <ContentControl prism:RegionManager.RegionName="FooterRegion" DockPanel.Dock="Bottom" Background="#FFF4B0B0"></ContentControl>
+            </StackPanel>
+        </DockPanel>
+    </Grid>
+</Window>

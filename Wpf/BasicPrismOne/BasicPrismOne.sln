@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1259
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicPrism", "BasicPrism\BasicPrism.csproj", "{80CD71BA-E18B-4F05-B4B2-CD578F8B505E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "INFO", "INFO", "{AC622EE9-4420-4570-88D9-7914C9420F6B}"
+	ProjectSection(SolutionItems) = preProject
+		설명서.txt = 설명서.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicPrismModules", "BasicPrismModules\BasicPrismModules.csproj", "{4708A77B-34C5-4073-B2E7-EE11F48D7204}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{80CD71BA-E18B-4F05-B4B2-CD578F8B505E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80CD71BA-E18B-4F05-B4B2-CD578F8B505E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80CD71BA-E18B-4F05-B4B2-CD578F8B505E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80CD71BA-E18B-4F05-B4B2-CD578F8B505E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4708A77B-34C5-4073-B2E7-EE11F48D7204}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4708A77B-34C5-4073-B2E7-EE11F48D7204}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4708A77B-34C5-4073-B2E7-EE11F48D7204}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4708A77B-34C5-4073-B2E7-EE11F48D7204}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPath = packages\Unity.2.1.505.0\lib\NET35;packages\Unity.2.1.505.2\lib\NET35
+		SolutionGuid = {4903D6AC-B7E4-4B6F-975E-743B50B26302}
+	EndGlobalSection
+EndGlobal
