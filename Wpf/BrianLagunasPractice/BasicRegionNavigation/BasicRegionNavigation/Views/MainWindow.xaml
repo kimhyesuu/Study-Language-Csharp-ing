@@ -1,0 +1,22 @@
+﻿<Window x:Class="BasicRegionNavigation.Views.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:prism="http://prismlibrary.com/"
+        prism:ViewModelLocator.AutoWireViewModel="True"
+        Title="{Binding Title}" Height="350" Width="525">
+    <Window.Resources>
+        <Style TargetType="StackPanel">
+            <Setter Property="Margin" Value="4"/>
+        </Style>
+        <Style TargetType="Button">
+            <Setter Property="Margin" Value="4"/>
+        </Style>
+    </Window.Resources>
+    <DockPanel>
+        <StackPanel Orientation="Horizontal" DockPanel.Dock="Top">
+            <Button Command="{Binding Path=NavigateCommand}" CommandParameter="ViewA"  Content="Navigate to View A"/>
+            <Button Command="{Binding Path=NavigateCommand}" CommandParameter="ViewB"  Content="Navigate to View B"/>
+        </StackPanel>
+        <ContentControl DockPanel.Dock="Bottom" prism:RegionManager.RegionName="ContentRegion" />
+    </DockPanel>
+</Window>

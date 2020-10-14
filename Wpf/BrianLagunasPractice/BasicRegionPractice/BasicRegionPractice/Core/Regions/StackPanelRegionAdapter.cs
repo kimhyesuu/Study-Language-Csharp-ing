@@ -111,7 +111,7 @@ namespace BasicRegionPractice.Core.Regions
                 }
                 else if(e.Action == NotifyCollectionChangedAction.Remove)
                 {
-                    foreach (FrameworkElement element in e.NewItems)
+                    foreach (FrameworkElement element in e.OldItems)
                     {                      
                         regionTarget.Children.Remove(element);
                     }
