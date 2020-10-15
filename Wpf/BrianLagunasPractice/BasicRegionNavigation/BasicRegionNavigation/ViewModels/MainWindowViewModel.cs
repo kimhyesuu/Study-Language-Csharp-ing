@@ -7,7 +7,7 @@ namespace BasicRegionNavigation.ViewModels
 {
     public class MainWindowViewModel : BindableBase
     {
-        private DelegateCommand<string> _navigateCommand;
+        
         private IRegionManager _regionManager;
 
         public MainWindowViewModel(IRegionManager regionManager)
@@ -16,7 +16,9 @@ namespace BasicRegionNavigation.ViewModels
         }
 
         public string Title { get => "Prism Application"; }
-   
+
+        private DelegateCommand<string> _navigateCommand;
+
         public DelegateCommand<string> NavigateCommand =>
             _navigateCommand ?? (_navigateCommand = new DelegateCommand<string>(CurrentView));
 

@@ -14,17 +14,18 @@
             <RowDefinition Height="auto"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
+                
         <!--First Name-->
         <Label Grid.Row="0" Grid.Column="0" Content="First Name"/>
-        <TextBox Grid.Row="0" Grid.Column="1" Text="{Binding Path=SelectedPerson.FirstName}"/>
+        <TextBlock Grid.Row="0" Grid.Column="1" Text="{Binding SelectedPerson.FirstName}"/>
 
         <!--Last Name-->
         <Label Grid.Row="1" Grid.Column="0" Content="Last Name"/>
-        <TextBox Grid.Row="1" Grid.Column="1" Text="{Binding Path=SelectedPerson.LastName}" />
+        <TextBlock Grid.Row="1" Grid.Column="1" Text="{Binding Path=SelectedPerson.LastName}" />
 
         <!--Age-->
         <Label Grid.Row="2" Grid.Column="0" Content="Age"/>
-        <TextBox Grid.Row="2" Grid.Column="1" Text="{Binding Path=SelectedPerson.Age}"/>
+        <TextBlock Grid.Row="2" Grid.Column="1" Text="{Binding Path=SelectedPerson.Age}"/>
 
 
     </Grid>

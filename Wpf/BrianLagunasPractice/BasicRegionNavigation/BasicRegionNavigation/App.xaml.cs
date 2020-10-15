@@ -9,6 +9,8 @@ namespace BasicRegionNavigation
     /// <summary>
     /// Interaction logic for App.xaml
     /// </summary>
+    
+        // 혹은 bootstrapper를 사용
     public partial class App
     {
         protected override Window CreateShell()

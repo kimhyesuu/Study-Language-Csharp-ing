@@ -7,13 +7,15 @@ using System.Collections.ObjectModel;
 
 namespace ModuleA.ViewModels
 {
+    // 첫번째 강의 : PersonListViewModel
+    // 두번째 강의 : PersonDetailViewModel : INavigationAware
+    // 세번째 강의 : PersonDetailViewModel : INavigationAware
+
     public class PersonListViewModel : BindableBase
     {
         IRegionManager _regionManager;
         private ObservableCollection<Person> _people;
-
-        //원래는 CreatePeople()를 IPersonService에서 만드는 것
-        // constructor에서 파라미터로 받아서 쓰는 것!!!!
+   
         public PersonListViewModel(IRegionManager regionManager)
         {
             _regionManager = regionManager;
@@ -27,15 +29,21 @@ namespace ModuleA.ViewModels
             set { SetProperty(ref _people, value); }
         }
 
-        private DelegateCommand<Person> PersonSelectedCommand { get; set; }
+        public DelegateCommand<Person> PersonSelectedCommand { get; private set; }
 
         private void PersonSelected(Person person)
         {
             if (person is null) return;
 
-
-            _regionManager.RequestNavigate("PersonDetailsRegion", "PersonDetail");
-
+            var p = new NavigationParameters();
+            p.Add("person",person);
+            
+            #region 두번째
+            // 디버깅할 때 파라미터(p)가 안들어가서 시간 지체 좋은 발견이었다. 
+            // 값이 잘들어가 있는지 확인해줘라 혜수야.....
+            _regionManager.RequestNavigate("PersonDetailsRegion", "PersonDetail" , p);
+            #endregion
+            #region 첫번째로 쓴 것
 
             // NavigationParameters에 IEnumerable 상속이 되어있음 
             //var param = new NavigationParㅇameters();
@@ -44,9 +52,15 @@ namespace ModuleA.ViewModels
             //if (person is null) return;
 
             //_regionManager.RequestNavigate("PersonDetailsRegion","PersonDetail", parameters);
+            #endregion
         }
 
-        //이 코드에서만 이렇게 하고 service in production code이다 이건
+        #region 이 코드에서만 이렇게 하고 service in production code입니다. 하지만 강의를 위해서 여기다 쓴 것
+
+        //원래는 CreatePeople()를 IPersonService에서 만드는 것
+        // constructor에서 파라미터로 받아서 쓰는 것!!!!
+        //PersonListViewModel(IPersonService personService)
+
         private void CreatePeople()
         {
             var people = new ObservableCollection<Person>();
@@ -66,8 +80,8 @@ namespace ModuleA.ViewModels
 
         //private void parameters(NavigationResult obj)
         //{
-           
-        //}
 
+        //}
+        #endregion
     }
 }
