@@ -1,5 +1,4 @@
-﻿using ModularSample.Dialog;
-using ModularSample.Views;
+﻿using ModularSample.Views;
 using ModuleA.Models.Module;
 using Prism.DryIoc;
 using Prism.Ioc;
@@ -26,8 +25,7 @@ namespace ModularSample
 
         protected override void RegisterTypes(IContainerRegistry containerRegistry)
         {
-            containerRegistry.RegisterDialog<MessageDialog, MessageDialogViewModel>();
-            //containerRegistry.RegisterDialog<MessageDialog, MessageDialogViewModel>("MyCustomDialog");
+            
         }
 
         protected override void ConfigureModuleCatalog(IModuleCatalog moduleCatalog)

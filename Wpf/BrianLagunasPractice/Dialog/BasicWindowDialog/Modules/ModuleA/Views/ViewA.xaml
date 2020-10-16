@@ -3,12 +3,8 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:prism="http://prismlibrary.com/"
              prism:ViewModelLocator.AutoWireViewModel="True"
-             >
-    <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
-        <TextBlock Text="{Binding Path=MessageReceived}" FontSize="40"
-                   VerticalAlignment="Center" HorizontalAlignment="Center"/>
-        <Button Content="{Binding Path=ButtonTitle}"
-                Command="{Binding Path=ShowDialogCommand}"
-                Width="175" Height="85"/>
+             > 
+    <StackPanel>
+        <TextBlock Text="{Binding Path=Message}" FontSize="40" VerticalAlignment="Center" HorizontalAlignment="Center"/>
     </StackPanel>
 </UserControl>
