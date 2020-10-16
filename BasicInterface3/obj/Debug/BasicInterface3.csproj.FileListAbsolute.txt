@@ -1,7 +1,0 @@
-C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\Csharpsyntax\BasicInterface3\bin\Debug\BasicInterface3.exe.config
-C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\Csharpsyntax\BasicInterface3\bin\Debug\BasicInterface3.exe
-C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\Csharpsyntax\BasicInterface3\bin\Debug\BasicInterface3.pdb
-C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\Csharpsyntax\BasicInterface3\obj\Debug\BasicInterface3.csproj.CoreCompileInputs.cache
-C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\Csharpsyntax\BasicInterface3\obj\Debug\BasicInterface3.exe
-C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\Csharpsyntax\BasicInterface3\obj\Debug\BasicInterface3.pdb
-C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\Csharpsyntax\BasicInterface3\obj\Debug\BasicInterface3.csprojAssemblyReference.cache

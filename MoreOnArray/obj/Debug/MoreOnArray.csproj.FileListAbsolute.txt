@@ -1,6 +1,0 @@
-C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\Csharpsyntax\MoreOnArray\bin\Debug\MoreOnArray.exe.config
-C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\Csharpsyntax\MoreOnArray\bin\Debug\MoreOnArray.exe
-C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\Csharpsyntax\MoreOnArray\bin\Debug\MoreOnArray.pdb
-C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\Csharpsyntax\MoreOnArray\obj\Debug\MoreOnArray.csproj.CoreCompileInputs.cache
-C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\Csharpsyntax\MoreOnArray\obj\Debug\MoreOnArray.exe
-C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\Csharpsyntax\MoreOnArray\obj\Debug\MoreOnArray.pdb

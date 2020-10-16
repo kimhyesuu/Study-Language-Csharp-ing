@@ -1,6 +1,0 @@
-C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\Csharpsyntax\Property3\bin\Debug\Property3.exe.config
-C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\Csharpsyntax\Property3\bin\Debug\Property3.exe
-C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\Csharpsyntax\Property3\bin\Debug\Property3.pdb
-C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\Csharpsyntax\Property3\obj\Debug\Property3.csproj.CoreCompileInputs.cache
-C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\Csharpsyntax\Property3\obj\Debug\Property3.exe
-C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\Csharpsyntax\Property3\obj\Debug\Property3.pdb

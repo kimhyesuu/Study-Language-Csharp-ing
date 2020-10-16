@@ -1,7 +1,0 @@
-C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\Csharpsyntax\FactoryMethod2\obj\Debug\FactoryMethod2.csprojAssemblyReference.cache
-C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\Csharpsyntax\FactoryMethod2\obj\Debug\FactoryMethod2.csproj.CoreCompileInputs.cache
-C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\Csharpsyntax\FactoryMethod2\bin\Debug\FactoryMethod2.exe.config
-C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\Csharpsyntax\FactoryMethod2\bin\Debug\FactoryMethod2.exe
-C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\Csharpsyntax\FactoryMethod2\bin\Debug\FactoryMethod2.pdb
-C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\Csharpsyntax\FactoryMethod2\obj\Debug\FactoryMethod2.exe
-C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\Csharpsyntax\FactoryMethod2\obj\Debug\FactoryMethod2.pdb

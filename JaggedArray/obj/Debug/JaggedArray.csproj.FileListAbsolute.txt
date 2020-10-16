@@ -1,6 +1,0 @@
-C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\Csharpsyntax\JaggedArray\bin\Debug\JaggedArray.exe.config
-C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\Csharpsyntax\JaggedArray\bin\Debug\JaggedArray.exe
-C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\Csharpsyntax\JaggedArray\bin\Debug\JaggedArray.pdb
-C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\Csharpsyntax\JaggedArray\obj\Debug\JaggedArray.csproj.CoreCompileInputs.cache
-C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\Csharpsyntax\JaggedArray\obj\Debug\JaggedArray.exe
-C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\Csharpsyntax\JaggedArray\obj\Debug\JaggedArray.pdb

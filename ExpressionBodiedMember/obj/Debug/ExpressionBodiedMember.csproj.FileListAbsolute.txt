@@ -1,6 +1,0 @@
-C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\Csharpsyntax\ExpressionBodiedMember\bin\Debug\ExpressionBodiedMember.exe.config
-C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\Csharpsyntax\ExpressionBodiedMember\bin\Debug\ExpressionBodiedMember.exe
-C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\Csharpsyntax\ExpressionBodiedMember\bin\Debug\ExpressionBodiedMember.pdb
-C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\Csharpsyntax\ExpressionBodiedMember\obj\Debug\ExpressionBodiedMember.csproj.CoreCompileInputs.cache
-C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\Csharpsyntax\ExpressionBodiedMember\obj\Debug\ExpressionBodiedMember.exe
-C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\Csharpsyntax\ExpressionBodiedMember\obj\Debug\ExpressionBodiedMember.pdb

@@ -1,6 +1,0 @@
-C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\Csharpsyntax\DerivedFromArray\bin\Debug\DerivedFromArray.exe.config
-C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\Csharpsyntax\DerivedFromArray\bin\Debug\DerivedFromArray.exe
-C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\Csharpsyntax\DerivedFromArray\bin\Debug\DerivedFromArray.pdb
-C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\Csharpsyntax\DerivedFromArray\obj\Debug\DerivedFromArray.csproj.CoreCompileInputs.cache
-C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\Csharpsyntax\DerivedFromArray\obj\Debug\DerivedFromArray.exe
-C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\Csharpsyntax\DerivedFromArray\obj\Debug\DerivedFromArray.pdb

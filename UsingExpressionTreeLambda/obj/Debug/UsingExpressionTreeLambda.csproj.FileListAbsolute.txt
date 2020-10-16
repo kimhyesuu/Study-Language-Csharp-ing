@@ -1,6 +1,0 @@
-C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\Csharpsyntax\UsingExpressionTreeLambda\bin\Debug\UsingExpressionTreeLambda.exe.config
-C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\Csharpsyntax\UsingExpressionTreeLambda\bin\Debug\UsingExpressionTreeLambda.exe
-C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\Csharpsyntax\UsingExpressionTreeLambda\bin\Debug\UsingExpressionTreeLambda.pdb
-C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\Csharpsyntax\UsingExpressionTreeLambda\obj\Debug\UsingExpressionTreeLambda.csproj.CoreCompileInputs.cache
-C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\Csharpsyntax\UsingExpressionTreeLambda\obj\Debug\UsingExpressionTreeLambda.exe
-C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\Csharpsyntax\UsingExpressionTreeLambda\obj\Debug\UsingExpressionTreeLambda.pdb

@@ -1,6 +1,0 @@
-C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\Csharpsyntax\LambdaFuncAction\bin\Debug\LambdaFuncAction.exe.config
-C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\Csharpsyntax\LambdaFuncAction\bin\Debug\LambdaFuncAction.exe
-C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\Csharpsyntax\LambdaFuncAction\bin\Debug\LambdaFuncAction.pdb
-C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\Csharpsyntax\LambdaFuncAction\obj\Debug\LambdaFuncAction.csproj.CoreCompileInputs.cache
-C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\Csharpsyntax\LambdaFuncAction\obj\Debug\LambdaFuncAction.exe
-C:\Users\juid0\OneDrive\바탕 화면\ProjectManagement\Test\Csharpsyntax\LambdaFuncAction\obj\Debug\LambdaFuncAction.pdb
