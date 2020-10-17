@@ -1,0 +1,36 @@
+﻿<Window x:Class="LocalizeDatesNumTextDirection.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LocalizeDatesNumTextDirection"
+        mc:Ignorable="d" 
+        Title="MainWindow" Height="450" Width="800">
+    <!--Language="ja-jp"-->
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <DockPanel Grid.Row="1" Grid.Column="1" >
+            <StackPanel DockPanel.Dock="Left">
+                <TextBlock Text="Dates "/>
+                <TextBlock Text="Currency "/>
+                <TextBlock Text="Text "/>
+            </StackPanel>
+            <StackPanel DockPanel.Dock="Right">
+                <!--<TextBlock Text="{Binding Path=Date, StringFormat=D}" Language="ja-jp"/>-->
+                <TextBlock Text="{Binding Path=Date, StringFormat=D}" Language="ja-jp"/>
+                <!-- FlowDirection 좋음-->
+                <TextBlock Text="{Binding Path=Double, StringFormat=C}" FlowDirection="{Binding Path=Direction}"/>
+                <TextBlock Text="{Binding Path=String}"/>
+            </StackPanel>
+        </DockPanel>
+    </Grid>
+</Window>

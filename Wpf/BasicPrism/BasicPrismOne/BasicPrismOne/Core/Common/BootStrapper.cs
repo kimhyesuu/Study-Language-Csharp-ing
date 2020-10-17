@@ -21,8 +21,7 @@ namespace BasicPrismOne.Core.Common
         protected override void InitializeModules()
         {
             base.InitializeModules();
-            App.Current.MainWindow = this.Shell as ShellWindow;
-            App.Current.MainWindow.Show();
+
         }
         protected override void ConfigureModuleCatalog()
         {

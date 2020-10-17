@@ -1,0 +1,9 @@
+﻿<Window x:Class="ModularSample.Dialog.MyCustomWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Background="Green"
+        Title="{Binding Path=Title}" Height="450" Width="800">
+    <Grid>
+        
+    </Grid>
+</Window>
