@@ -15,67 +15,115 @@ using System.Threading.Tasks;
 // 5. 인터페이스 활용시 Naming 시 첫 글자를 I로 시작하는 관례가 있음
 namespace BasicInterface
 {
-   interface ILogger
-   {
-       void WriteLog(string Message);
-   }
+    interface ILogger
+    {
+        void WriteLog(string Message);
+    }
 
-   class ConsoleLogger : ILogger
-   {
-      public void WriteLog(string message)
-      {
-         Console.WriteLine("{0} {1}",DateTime.Now.ToLocalTime(), message);
-      }
-   }
+    class ConsoleLogger : ILogger
+    {
+        public void WriteLog(string message)
+        {
+            Console.WriteLine("{0} {1}", DateTime.Now.ToLocalTime(), message);
+        }
+    }
 
-   class FileLogger : ILogger
-   {
-      private StreamWriter writer;
+    class FileLogger : ILogger
+    {
+        private StreamWriter writer;
 
-      public FileLogger(string path)
-      {
-         writer = File.CreateText(path);
-         writer.AutoFlush = true; //이해안댐
-      }
+        public FileLogger(string path)
+        {
+            writer = File.CreateText(path);
+            writer.AutoFlush = true; //이해안댐
+        }
 
-      public void WriteLog(string message)
-      {
-         writer.WriteLine("{0} {1}", DateTime.Now.ToShortDateString(), message);
-      }
-   }
+        public void WriteLog(string message)
+        {
+            writer.WriteLine("{0} {1}", DateTime.Now.ToShortDateString(), message);
+        }
+    }
 
-   class ClimateMonitor
-   {
-      private ILogger logger;
+    interface IBusinessLogic
+    {
+        void GetTempValue();
+    }
 
-      public ClimateMonitor(ILogger logger)
-      {
-         // build하면서 객체 생성했음
-         this.logger = logger;
-      }
+    class BusinessLogic : IBusinessLogic
+    {
 
-      public void Start()
-      {
-         while(true)
-         {
-            Console.Write("온도를 입력해주세요. : ");
-            string temp = Console.ReadLine();
-            if (temp == "")
-               break;
+        private ILogger _logger;
 
-            logger.WriteLog("현재 온도 :" + temp);
-         }
-      }
-   }
+        public BusinessLogic(ILogger logger)
+        {
+            // build하면서 객체 생성했음
+            this._logger = logger;
+        }
 
-   class Program
-   {
-      static void Main(string[] args)
-      {
-         ClimateMonitor monitor = new ClimateMonitor(new FileLogger("MyLog.txt"));
 
-         monitor.Start();
-        
-      }
-   }
+        public void GetTempValue()
+        {
+            while (true)
+            {
+                Console.Write("온도를 입력해주세요. : ");
+                string temp = Console.ReadLine();
+                if (temp == string.Empty)
+                    break;
+
+                _logger.WriteLog("현재 온도 :" + temp);
+            }
+        }
+    }
+
+    interface IApplication
+    {
+        void Start();
+    }
+
+    class Application : IApplication
+    {
+        private IBusinessLogic _businessLogic;
+
+        public Application(IBusinessLogic businessLogic)
+        {
+            this._businessLogic = businessLogic;
+        }
+
+        public void Start()
+        {
+            _businessLogic.GetTempValue();
+        }
+    }
+
+    static class Container
+    {
+        private static IBusinessLogic _businessLogic;
+
+        public static void CreateContainer()
+        {
+            var aa = new ConsoleLogger();
+             _businessLogic = new BusinessLogic(aa);
+            
+        }
+
+        public static void Run()
+        {
+            var application = new Application(_businessLogic);
+            application.Start();
+        }
+    }
+
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            // 컨테이너에서 이 객체를 주입을 하는 구나
+
+            Container.CreateContainer();
+            Container.Run();
+
+            Console.ReadKey();
+
+        }
+    }
 }

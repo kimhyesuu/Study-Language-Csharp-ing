@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{DC5BEE20-B4F0-4D11-AD64-0FCF50568603}</ProjectGuid>
+    <ProjectGuid>{ABE7EDE8-EB09-4588-A074-E8907794EE5B}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>LocalizeEnums</RootNamespace>
-    <AssemblyName>LocalizeEnums</AssemblyName>
+    <RootNamespace>BindingComboBox</RootNamespace>
+    <AssemblyName>BindingComboBox</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -55,20 +55,9 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="EnumDescriptionTypeConverter.cs" />
-    <Compile Include="Extensions\EnumBindingExtension.cs" />
-    <Compile Include="LocalizedDescriptionAttribute.cs" />
-    <Compile Include="Resources\EnumResourceja-jp.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>EnumResourceja-jp.resx</DependentUpon>
-    </Compile>
-    <Compile Include="Resources\EnumResources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>EnumResources.resx</DependentUpon>
-    </Compile>
+    <Compile Include="EnumBindingSourceExtension.cs" />
     <Compile Include="Status.cs" />
+    <Compile Include="Tomorrow.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -100,14 +89,6 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\EnumResourceja-jp.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>EnumResourceja-jp.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Resources\EnumResources.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>EnumResources.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -116,6 +97,5 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -1,4 +1,5 @@
-﻿using System.ComponentModel;
+﻿using LocalizeEnums.Resources;
+using System.ComponentModel;
 
 namespace LocalizeEnums
 {
@@ -11,8 +12,11 @@ namespace LocalizeEnums
         Bad,
         [Description("This is Soso")]
         Soso,
+        [LocalizedDescription("Good", typeof(EnumResources))]
         Good,
+        [LocalizedDescription("Better", typeof(EnumResources))]
         Better,
+        [LocalizedDescription("Best", typeof(EnumResources))]
         Best
     }
 }

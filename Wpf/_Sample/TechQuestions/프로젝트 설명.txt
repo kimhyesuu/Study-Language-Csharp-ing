@@ -1,0 +1,7 @@
+각 프로젝트 설명
+
+LocalizeDatesNumTextDirection
+LocalizeEnums : Reflection을 활용해서 Atrribute가 나올 때 ComboBox에 해당 Description이 발동 되는 것 
+BindingComboBox : enum type를 xaml or class에서 콤보박스로 나타내는 프로젝트
+
+프로젝트 콤보박스 만들 시  enum 타입을 대분류 중분류 소분류 한 enum class를 모아둔 뒤 하나로 콤보 박스 해결이 가능한지 살펴보기
