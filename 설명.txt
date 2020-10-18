@@ -1,8 +1,0 @@
-
-
-DI는 객체를 생성하기를 주입하게 해서 보다 Coupling을 낮출 수 있는 형태
-
-1. BusinessLogic, DataAccess, Logger를 생성
-2. 각 Interface 생성
-3. ContainerConfig(Autofac nuget) 생성
-4. Application 및 interface 생성
