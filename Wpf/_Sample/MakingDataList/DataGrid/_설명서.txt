@@ -1,0 +1,11 @@
+설명서
+
+DataGridExe : 선택할 시 밑에 부가설명 들어가는 기능
+DataGridExe2 : row별로 색상 및 데이터 그리드 선택 후 버튼 클릭 시 원하는 데이터 메시지 창에 띄움, 체크 박스
+DataGridExe3 : xaml에 attribute를 안만들어도 값이 배정
+DataGridExe4 : DataGridExe3에 색상 배정
+DataGridExe5 : 선택 시 색깔 변환
+DataGridExe5 : 데이터 그리드 내부 편집 가능
+DataGridExe6 : 타당성 부여 
+DataGridExe7 : 1 - 100 리스트에 뿌리기
+DataGridExe8 : txt 값을 불러와서 리스트에 나타내는 방법 
