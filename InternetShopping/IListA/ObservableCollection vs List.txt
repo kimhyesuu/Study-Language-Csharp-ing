@@ -1,0 +1,19 @@
+﻿    ObservableCollection<> vs.List<>
+	https://stackoverflow.com/questions/4196968/observablecollection-vs-list
+
+    ObservableCollection 특징
+
+    - ObservableCollection also implements INotifyCollectionChanged 
+      interface, which allows WPF to bind to it.
+	
+	- ObservableCollection is a generic dynamic data collection that uses an interface
+	  "INotifyCollectionChanged" to provide notifications
+	   when items get added, removed, or when the whole collection is refreshed.		
+
+	 List 특징
+
+	 - List represents a strongly typed list of objects that can be accessed by index. It provides 
+	  methods to search, sort, and manipulate lists. The List class is the generic equivalent of the ArrayList
+	  class. It implements the IList generic interface using an array 
+	  whose size is dynamically increased as required.
+

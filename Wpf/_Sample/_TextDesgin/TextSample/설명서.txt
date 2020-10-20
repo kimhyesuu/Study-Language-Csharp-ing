@@ -1,0 +1,18 @@
+<설명서>
+
+TextBox
+
+TextExe1 : text 값이 string.empty가 아니면 BoardBrush(red)가 원상태로 변동  
+TextExe2 : TextExe1와 동일한 기능이지만 xaml이 아닌 코드로 변동 값 설정해줌
+TextExe3 : top bar 생성 시 textbox 활용 방법 
+TextExe4 : 
+	- borderbrush 그라디언트 사용
+	- background 그라디언트 사용
+	- 스크롤 바 사용
+	- Wraping 사용
+
+TextBlock
+
+
+
+Label

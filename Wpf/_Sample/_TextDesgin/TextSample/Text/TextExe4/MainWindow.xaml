@@ -1,0 +1,75 @@
+﻿<Window x:Class="TextExe4.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TextExe4"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="200" Width="600">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <StackPanel Grid.Column="1" Orientation="Vertical">
+            <TextBox Name="TextBox1" Height="30" Width="100"
+                        Text="Hello! I am a TextBox."/>
+            <TextBox Name="TextBox2" Height="30" Width="200"   
+                    Text="Hello! I am a TextBox."   
+                    Margin="10,10,10,0" VerticalAlignment="Top"  
+                    HorizontalAlignment="Left">
+                <TextBox.BorderBrush>
+                    <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                        <GradientStop Color="Blue" Offset="0" />
+                        <GradientStop Color="Red" Offset="1.0" />
+                    </LinearGradientBrush>
+                </TextBox.BorderBrush>
+            </TextBox>
+            <TextBox Name="TextBox3" Height="30" Width="100"
+                        Text="Hello! I am a TextBox.">
+                <TextBox.Background>
+                    <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                        <GradientStop Color="Blue" Offset="0.1" />
+                        <GradientStop Color="Orange" Offset="0.25" />
+                        <GradientStop Color="Green" Offset="0.75" />
+                        <GradientStop Color="Red" Offset="1.0" />
+                    </LinearGradientBrush>
+                </TextBox.Background>
+                <TextBox.Foreground>
+                    <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                        <GradientStop Color="Orange" Offset="0.25" />
+                        <GradientStop Color="White" Offset="1.0" />
+                    </LinearGradientBrush>
+                </TextBox.Foreground>
+            </TextBox>
+        </StackPanel>
+        <StackPanel Grid.Column="2" Orientation="Vertical">
+            <!-- TextWrapping
+            
+             Gets or sets how the text box 
+            should wrap text.
+            
+            -->
+            
+            <!-- AcceptsReturn 
+            
+             Gets or sets a value indicating whether 
+            pressing ENTER in a multiline TextBox control creates
+            a new line of text in the control or activates
+            the default button for the form.
+            
+            -->
+            <TextBox Name="TextBox5" Margin="10,10,50,0"  
+               Width="150" Height="150"  
+               HorizontalScrollBarVisibility="Visible"  
+               VerticalScrollBarVisibility="Visible"  
+                TextWrapping="Wrap"  
+                TextAlignment="Left"  
+                MaxLength="500"  
+                IsReadOnly="False"  
+                AcceptsReturn="True" ></TextBox>
+        </StackPanel>
+    </Grid>
+</Window>

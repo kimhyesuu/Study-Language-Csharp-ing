@@ -1,0 +1,10 @@
+<¿¹Á¦>
+
+Ex.0>
+
+</StackPanel>
+            <StackPanel  Orientation="Horizontal">
+                <TextBlock Text="State"/>
+                <TextBox Text="type here"/>
+            </StackPanel>
+</StackPanel>
