@@ -1,0 +1,30 @@
+﻿<Window x:Class="BooleanToVisibilityConverter.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BooleanToVisibilityConverter"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+
+    <Window.Resources>
+        <local:ParametrizedBooleanToVisibilityConverter/>
+    </Window.Resources>
+    <!--
+    <Window.Resources>
+        <BooleanToVisibilityConverter x:Key="BooleanToVisibilityConverter"/>
+    </Window.Resources>
+    <StackPanel>
+        <ToggleButton x:Name="toggleButton" Content="Toggle"
+                        IsChecked="True" Checked="toggleButton_Checked"/>
+        <TextBlock Text="Some Text"
+                    Visibility="{Binding IsChecked, 
+                    ElementName=toggleButton,
+                    Converter={StaticResource BooleanToVisibilityConverter}}"/>
+        <TextBlock Text="More Text"
+                    Visibility="{Binding ShowMoreText, 
+                    ElementName=thisWindow, 
+                    Converter={StaticResource BooleanToVisibilityConverter}}"/>
+    </StackPanel>
+    -->
+</Window>

@@ -27,7 +27,7 @@ namespace DataGridExe8
                 while (true)
                 {
                     string line = reader.ReadLine();
-                    if (line == null)
+                    if (line is null)
                     {
                         break;
                     }

@@ -38,7 +38,6 @@ namespace ModuleA.ViewModels
             }
         }
 
-
         // INavigationAware
         public void OnNavigatedTo(NavigationContext navigationContext)
         {
