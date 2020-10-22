@@ -34,7 +34,7 @@ namespace CustomRegionAdapter
         #endregion
         protected override void RegisterTypes(IContainerRegistry containerRegistry)
         {
-                    
+            //이거와         
             containerRegistry.RegisterForNavigation<ViewA>();
         }
 

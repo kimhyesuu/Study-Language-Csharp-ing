@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Window.Resources>
-        <local:BooleanToVisibilityConverter x:Key="Converter" />
+        <BooleanToVisibilityConverter x:Key="Converter" />
 
         <Style x:Key="no" TargetType="Button">
             <Setter Property="Visibility" Value="Visible"/>
@@ -19,8 +19,21 @@
         </Style>
     </Window.Resources>
     <Grid>
-        <Button Visibility="{Binding Path=ShowButton, Converter={StaticResource Converter}}"
-        Content="Button"
+        <Button 
+                x:Name="buuuu"
+                Visibility="{Binding Path=IsOpenVisible, Converter={StaticResource Converter}}"
+                Command="{Binding Path=VisibilityCommand}" CommandParameter="{Binding ElementName=buuuu}"
+        Content="낌" 
+        HorizontalAlignment="Left"
+        Margin="10,10,0,0"
+        VerticalAlignment="Top"
+        Width="75"  />
+
+        <Button
+            x:Name="buuuu2"
+            Content="혜수" Visibility="{Binding Path=IsCloseVisible, Converter={StaticResource Converter}}"
+                Command="{Binding Path=VisibilityCommand}" CommandParameter="{Binding ElementName=buuuu2}"
+        
         HorizontalAlignment="Left"
         Margin="10,10,0,0"
         VerticalAlignment="Top"
