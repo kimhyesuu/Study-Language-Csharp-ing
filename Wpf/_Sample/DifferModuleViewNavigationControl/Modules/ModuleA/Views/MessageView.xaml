@@ -1,0 +1,14 @@
+﻿<UserControl x:Class="ModuleA.Views.MessageView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:prism ="http://prismlibrary.com/"
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+             prism:ViewModelLocator.AutoWireViewModel="True">
+    <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+        <TextBox Text="{Binding Path=Message}" Margin="5"/>
+        <Button Command="{Binding Path=SendMessageCommand}" Content="Send Message" Margin="5"/>
+
+        <Button x:Name="MessageList" Command="{Binding Path=NavigationCommand}" CommandParameter="{Binding ElementName=MessageList}" Content="바꾸기" Margin="5" />
+        <Button x:Name="ViewB" Command="{Binding Path=NavigationCommand}" CommandParameter="{Binding ElementName=ViewB}" Content="바꾸기" Margin="5" />
+    </StackPanel>
+</UserControl>

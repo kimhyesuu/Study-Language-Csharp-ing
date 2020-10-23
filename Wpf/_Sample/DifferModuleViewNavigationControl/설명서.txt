@@ -1,0 +1,48 @@
+추가 코드 내용
+
+view 컨트롤
+
+app 
+
+public class Bootstrapper : UnityBootstrapper
+{
+    protected override DependencyObject CreateShell()
+    {
+        return Container.Resolve<MainWindow>();
+    }
+
+    protected override void InitializeShell()
+    {
+        Application.Current.MainWindow.Show();
+    }
+
+    protected override void ConfigureContainer()
+    {
+        base.ConfigureContainer();
+        Container.RegisterTypeForNavigation<ViewA>("ViewA");
+        Container.RegisterTypeForNavigation<ViewB>("ViewB");
+    }
+}
+
+viewmodel
+
+public class ViewAViewModel: BindableBase
+{
+    private readonly IRegionManager _regionManager;
+
+    public ViewAViewModel(IRegionManager regionManager)
+    {
+        _regionManager = regionManager;
+
+        ButtonCommand= new DelegateCommand(ButtonClicked);
+    }        
+
+    private void ButtonClicked()
+    {
+        _regionManager.RequestNavigate("ContentRegion", "ViewB");
+    }
+}
+
+in xaml
+
+<Button Content="Navigate" Command="{Binding ButtonCommand}"/>
