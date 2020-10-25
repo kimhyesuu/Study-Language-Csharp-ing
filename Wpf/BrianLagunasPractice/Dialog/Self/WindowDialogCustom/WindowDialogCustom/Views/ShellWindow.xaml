@@ -1,0 +1,11 @@
+﻿<Window x:Class="WindowDialogCustom.Views.ShellWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+         xmlns:prism="http://prismlibrary.com/"             
+          prism:ViewModelLocator.AutoWireViewModel="True"
+        Title="{Binding Path=Title}" Height="450" Width="800">
+    <StackPanel>
+        <Button Command="{Binding Path=ShowDialogCommand}" Content="Show my Dialog"/>
+        <Button Command="{Binding Path=ShowDialogCopyCommand}" Content="Show my Dialog"/>
+    </StackPanel>
+</Window>
