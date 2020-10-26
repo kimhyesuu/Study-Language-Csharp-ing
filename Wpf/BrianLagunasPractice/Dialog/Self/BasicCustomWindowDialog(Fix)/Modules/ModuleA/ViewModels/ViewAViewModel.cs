@@ -19,6 +19,8 @@ namespace ModuleA.ViewModels
 
         private void ShowDialogCopy()
         {
+            //show를 하자 그리고 eventaggragator를 여기다가 넣자 
+
             _dialogService.ShowPersonDialog("ViewB", r =>
             {
                 //ex. 2

@@ -58,10 +58,12 @@ namespace SampleListBox
       public static List<TodoItem> GetTodoItems()
       {
          var list = new List<TodoItem>();
+
          list.Add(new TodoItem() { Name = "KIM", Age = 19 });
          list.Add(new TodoItem() { Name = "KIM1", Age = 29 });
          list.Add(new TodoItem() { Name = "KIM2", Age = 39 });
          list.Add(new TodoItem() { Name = "KIM3", Age = 49 });
+
          return list;
         
       }

@@ -72,7 +72,7 @@
 
         // Called when the dialog is opened.
         public void OnDialogOpened(IDialogParameters parameters)
-           /=> Message = parameters.GetValue<string>("message");
+           => Message = parameters.GetValue<string>("message");
 
         #region TitleName
         private string _message;
