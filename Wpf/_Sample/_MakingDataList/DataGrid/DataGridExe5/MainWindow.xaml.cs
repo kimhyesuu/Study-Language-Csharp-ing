@@ -27,13 +27,20 @@ namespace DataGridExe5
 
         private void DataGrid_Loaded(object sender, RoutedEventArgs e)
         {
-            // ... Create.
-            var items = new List<Dog>();
-            items.Add(new Dog("Fido", 10));
-            items.Add(new Dog("Spark", 20));
-            items.Add(new Dog("Fluffy", 4));
-            items.Add(new Dog("Rover", 100));
-            items.Add(new Dog("Mister Mars", 30));
+         // ... Create.
+         var items = new List<Dog>()
+         {
+            new Dog { Name = "Fido", Size = 10 },
+            new Dog { Name = "Spark", Size = 20},
+            new Dog { Name = "Fluffy" , Size = 4},
+            new Dog { Name = "Rover" , Size = 100},
+            new Dog { Name = "Mister Mars", Size = 30}
+         };
+            //items.Add(new Dog(Name ="Fido", Size = 10));
+            //items.Add(new Dog("Spark", 20));
+            //items.Add(new Dog("Fluffy", 4));
+            //items.Add(new Dog("Rover", 100));
+            //items.Add(new Dog("Mister Mars", 30));
 
             // ... Assign.
             var grid = sender as DataGrid;
@@ -64,10 +71,10 @@ namespace DataGridExe5
         public string Name { get; set; }
         public int Size { get; set; }
 
-        public Dog(string name, int size)
-        {
-            this.Name = name;
-            this.Size = size;
-        }
+        //public Dog(string name, int size)
+        //{
+        //    this.Name = name;
+        //    this.Size = size;
+        //}
     }
 }

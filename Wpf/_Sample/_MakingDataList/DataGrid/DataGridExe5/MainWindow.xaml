@@ -6,12 +6,17 @@
         xmlns:local="clr-namespace:DataGridExe5"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
+    <StackPanel>
         <DataGrid
             HorizontalAlignment="Left"
             Margin="10,10,0,0"
             VerticalAlignment="Top"
             SelectionChanged="DataGrid_SelectionChanged"
             Loaded="DataGrid_Loaded"/>
-    </Grid>
+        <DataGrid
+            HorizontalAlignment="Left"
+            Margin="10,10,0,0"
+            VerticalAlignment="Top"           
+            Loaded="DataGrid_Loaded"/>
+    </StackPanel>
 </Window>

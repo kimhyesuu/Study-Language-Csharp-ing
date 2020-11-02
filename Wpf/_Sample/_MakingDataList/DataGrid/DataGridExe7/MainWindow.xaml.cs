@@ -39,7 +39,7 @@ namespace DataGridExe7
             grid.ItemsSource = items;
 
             // ... Scroll into view.
-            grid.ScrollIntoView(items[items.Count - 1]);
+           grid.ScrollIntoView(items[items.Count - 1]);
         }
 
         private void DataGrid_CellEditEnding(object sender,

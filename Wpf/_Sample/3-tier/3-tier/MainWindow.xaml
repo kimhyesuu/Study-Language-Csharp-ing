@@ -1,0 +1,18 @@
+﻿<Window x:Class="_3_tier.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_3_tier"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" Width="120" Height="auto">
+        <Button x:Name="Savebtn" Content="Save" Height="30" Click="Savebtn_Click"/>
+        <TextBox x:Name="personId"/>
+        <TextBox x:Name="FirstName"/>
+        <TextBox x:Name="LastName"/>
+        <DataGrid>
+            
+        </DataGrid>
+    </StackPanel>
+</Window>
