@@ -17,9 +17,9 @@
             VerticalAlignment="Top"           
             Loaded="DataGrid_Loaded"/>
         <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,50">
-            <Button x:Name="addBtn" Content="Add" Width="120" Height="50" />
-            <Button x:Name="editBtn" Content="Edit" Width="120" Height="50"/>
-            <Button x:Name="deleteBtn" Content="Delete" Width="120" Height="50"/>
+            <Button x:Name="addBtn" Content="Add" Width="120" Height="50" Click="AddBtn_Click" />
+            <Button x:Name="editBtn" Content="Edit" Width="120" Height="50" Click="EditBtn_Click"/>
+            <Button x:Name="deleteBtn" Content="Delete" Width="120" Height="50" Click="DeleteBtn_Click"/>
         </StackPanel>
     </StackPanel>
 

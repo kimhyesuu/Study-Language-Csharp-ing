@@ -1,0 +1,24 @@
+﻿<Window x:Class="_3_TierEntityFramework.RegisterDog"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_3_TierEntityFramework"
+        mc:Ignorable="d"
+        Closing="Window_Closing"    
+        Title="RegisterDog" Height="450" Width="800">
+    <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+        <TextBlock Text="도그 id"/>
+        <TextBox x:Name="dogid" Height="30" Width="120"/>
+        <TextBlock Text="도그 이름"/>
+        <TextBox x:Name="dogName" Height="30" Width="120"/>
+        <TextBlock Text="도그 종류"/>
+        <TextBox x:Name="dogkind" Height="30" Width="120"/>
+        <TextBlock Text="도그 이메일"/>
+        <TextBox x:Name="dogemail" Height="30" Width="120"/>
+        <TextBlock Text="도그 크기"/>
+        <TextBox x:Name="dogSize" Height="30" Width="120"/>
+
+        <Button x:Name="btnClose" Content="Save" Width="120" Height="30" Click="BtnClose_Click"/>
+    </StackPanel>
+</Window>

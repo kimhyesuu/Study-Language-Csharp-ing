@@ -1,17 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using BusinessLayer;
+using Model;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 
 namespace _3_TierEntityFramework
 {
@@ -20,6 +10,8 @@ namespace _3_TierEntityFramework
    /// </summary>
    public partial class MainWindow : Window
    {
+      DataGrid grid;
+
       public MainWindow()
       {
          InitializeComponent();
@@ -27,24 +19,37 @@ namespace _3_TierEntityFramework
 
       private void DataGrid_Loaded(object sender, RoutedEventArgs e)
       {
-         // ... Create.
-         var items = new List<Dog>()
+         grid = sender as DataGrid;
+         grid.ItemsSource = DogService.GetAll();
+      }
+
+      private void AddBtn_Click(object sender, RoutedEventArgs e)
+      {
+
+         RegisterDog registerDog = new RegisterDog();
+         registerDog.ShowDialog();
+         grid.ItemsSource = DogService.GetAll();
+
+      }
+
+      private void EditBtn_Click(object sender, RoutedEventArgs e)
+      {
+         RegisterDog registerDog = new RegisterDog(grid.SelectedItem as Dog);
+         registerDog.ShowDialog();
+         grid.ItemsSource = DogService.GetAll();
+      }
+
+      private void DeleteBtn_Click(object sender, RoutedEventArgs e)
+      {
+         if (grid.CurrentCell == null)
+            return;
+
+         if(MessageBox.Show("Are you sure want to delete this the record?","정보",MessageBoxButton.YesNo) == MessageBoxResult.OK)
          {
-            new Dog { Name = "Fido", Size = 10 },
-            new Dog { Name = "Spark", Size = 20},
-            new Dog { Name = "Fluffy" , Size = 4},
-            new Dog { Name = "Rover" , Size = 100},
-            new Dog { Name = "Mister Mars", Size = 30}
-         };
-        
-         var grid = sender as DataGrid;
-         grid.ItemsSource = items;
+            DogService.Delete(grid.SelectedItem as Dog);
+         }
       }
    }
 
-   class Dog
-   {
-      public string Name { get; set; }
-      public int Size { get; set; }      
-   }
+
 }
