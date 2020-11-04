@@ -1,13 +1,17 @@
 ﻿using DataGridDelete.Command;
 using DataGridDelete.Models;
+using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.ComponentModel;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 using System.Windows.Input;
 
 namespace DataGridDelete.ViewModels
 {
-   public class PersonViewModel : INotifyPropertyChanged
+   public class MainViewModel : INotifyPropertyChanged
    {
       private ObservableCollection<Person> _people;
       public ICommand DeleteCommand { get; private set; }
@@ -18,7 +22,7 @@ namespace DataGridDelete.ViewModels
          set { _people = value; OnPropertyChanged(nameof(People)); }
       }
 
-      public PersonViewModel()
+      public MainViewModel()
       {
          People = new ObservableCollection<Person>(GeneratePeople());
          DeleteCommand = new RelayCommand(DeletePerson);
@@ -33,7 +37,7 @@ namespace DataGridDelete.ViewModels
       {
          var people = new List<Person>();
 
-         for (int x = 0; x < 25; x++)
+         for(int x= 0; x < 25; x++)
          {
             var person = new Person()
             {
@@ -49,10 +53,30 @@ namespace DataGridDelete.ViewModels
 
 
       public event PropertyChangedEventHandler PropertyChanged;
-
-      protected void OnPropertyChanged(string name = null)
+   
+      protected void OnPropertyChanged( string name = null)
       {
          PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(name));
       }
+
+      //private readonly Person _person;
+
+      //public string FirstName
+      //{
+      //   get { return _person.FirstName; }
+      //   set { _person.FirstName = value; OnPropertyChanged(nameof(FirstName)); }
+      //}
+
+      //public string LastName
+      //{
+      //   get { return _person.LastName; }
+      //   set { _person.LastName = value; OnPropertyChanged(nameof(LastName)); }
+      //}
+
+      //public int Age
+      //{
+      //   get { return _person.Age; }
+      //   set { _person.Age = value; OnPropertyChanged(nameof(Age)); }
+      //}
    }
 }

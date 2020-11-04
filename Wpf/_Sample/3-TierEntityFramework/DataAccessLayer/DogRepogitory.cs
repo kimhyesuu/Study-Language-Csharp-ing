@@ -18,6 +18,7 @@ namespace DataAccessLayer
             db.SaveChanges();
          }
       }
+      //이제 해보자 
 
       public List<Dog> GetAll()
       {
