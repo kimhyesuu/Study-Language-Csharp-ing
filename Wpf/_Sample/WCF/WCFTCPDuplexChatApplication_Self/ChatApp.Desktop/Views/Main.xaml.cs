@@ -3,6 +3,7 @@ using System.Collections.ObjectModel;
 using System.Threading;
 using System.Windows.Controls;
 using System.Windows.Media;
+using ChatApp.Contracts;
 using ChatApp.Contracts.Domain;
 using ChatApp.Desktop.ViewModels;
 
@@ -17,7 +18,7 @@ namespace ChatApp.Desktop.Views
       private User user;
       private ObservableCollection<Message> _message;
       private readonly SolidColorBrush[] userBackground = new SolidColorBrush[4];
-      private User _user;
+     // private User _user;
 
       public Main(MainWindow window, User user)
       {
@@ -48,7 +49,14 @@ namespace ChatApp.Desktop.Views
 
       private void ListBox_Loaded(object sender, System.Windows.RoutedEventArgs e)
       {
+         
+           // ... Assign.
+           var listbox = sender as ListBox;
+         //listbox.ItemsSource = ;
 
+
+         //GetConnectUser()
+         //Users
       }
    }
 }

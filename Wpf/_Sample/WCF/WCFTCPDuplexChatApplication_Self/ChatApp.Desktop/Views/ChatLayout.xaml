@@ -1,0 +1,74 @@
+﻿<UserControl x:Class="ChatApp.Desktop.Views.ChatLayout"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:ChatApp.Desktop.Views"
+             mc:Ignorable="d" 
+              >
+    <Grid Background="Aqua">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="31"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="60"/>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        
+        <Grid Grid.Row="0">
+            <Label Name="Title" Content="Connected Mike" 
+                   Background="#686868" 
+                   Foreground="White" HorizontalContentAlignment="Right"
+                   Margin="0.5"/>
+        </Grid>
+
+        <Grid Grid.Row="1" Background="Beige">
+            <ScrollViewer Name="ContentScroller"
+                          HorizontalScrollBarVisibility="Disabled"
+                          VerticalScrollBarVisibility="Auto"
+                          Background="Gray">
+                <ItemsControl Name="MessageTemplete">
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate>
+                            <Grid Margin="5" Background="{Binding ItemBackground}">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="32"/>
+                                    <RowDefinition Height="*"/>
+                                </Grid.RowDefinitions>
+                                <Grid Grid.Row="0">
+                                    <StackPanel Orientation="Horizontal"
+                                                Background="{Binding HeaderBackground}"
+                                                >
+                                        <Label Content="{Binding Name}" 
+                                               HorizontalAlignment="Left"
+                                               ></Label>
+                                        <Label Content="{Binding SentTime}" HorizontalAlignment="Right">
+                                            
+                                        </Label>
+                                        
+                                    </StackPanel>
+                                </Grid>
+                                <Grid Grid.Row="1">
+                                    <StackPanel Orientation="Horizontal">
+                                        <Label HorizontalContentAlignment="Right"
+                                                HorizontalAlignment="Right" Content="{Binding MessageSent}"/>
+                                    </StackPanel>
+                                </Grid>
+                            </Grid>
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ItemsControl>
+            </ScrollViewer>
+        </Grid>
+        <Grid Grid.Row="2" Background="#2B2C2E">
+            <StackPanel Orientation="Horizontal">
+                <TextBox Name="MessageContent" Background="#686868" Width="200"
+                         TextWrapping="Wrap"  AcceptsReturn="True" Margin="10"/>
+                <Button Name="SendButton" Content="Send" Margin="20" HorizontalAlignment="Right"
+                        Background="Black" Foreground="White" />
+            </StackPanel>
+        </Grid>
+    </Grid>
+</UserControl>
