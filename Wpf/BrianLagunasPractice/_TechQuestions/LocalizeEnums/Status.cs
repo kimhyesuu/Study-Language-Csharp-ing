@@ -6,17 +6,17 @@ namespace LocalizeEnums
     [TypeConverter(typeof(EnumDescriptionTypeConverter))]
     public enum Status
     {
-        [Description("This is horrible")]
+        [Description("010")]
         Horrible,
-        [Description("This is bad")]
+        [Description("011")]
         Bad,
-        [Description("This is Soso")]
+        [Description("017")]
         Soso,
-        [LocalizedDescription("Good", typeof(EnumResources))]
-        Good,
-        [LocalizedDescription("Better", typeof(EnumResources))]
-        Better,
-        [LocalizedDescription("Best", typeof(EnumResources))]
-        Best
+        //[LocalizedDescription("Good", typeof(EnumResources))]
+        //Good,
+        //[LocalizedDescription("Better", typeof(EnumResources))]
+        //Better,
+        //[LocalizedDescription("Best", typeof(EnumResources))]
+        //Best
     }
 }

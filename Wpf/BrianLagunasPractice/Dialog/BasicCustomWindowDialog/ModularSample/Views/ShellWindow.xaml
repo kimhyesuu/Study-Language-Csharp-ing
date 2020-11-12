@@ -4,8 +4,18 @@
         xmlns:prism ="http://prismlibrary.com/"
         xmlns:core="clr-namespace:ModularSample.Core;assembly=ModularSample.Core"
         prism:ViewModelLocator.AutoWireViewModel="True"        
-        WindowStartupLocation="CenterScreen"
+       
         Title="{Binding Path=Title}" Height="450" Width="800">
+    <prism:Dialog.WindowStyle>
+        <Style TargetType="Window">
+            <Setter Property="prism:Dialog.WindowStartupLocation" Value="CenterOwner" />
+            <Setter Property="ResizeMode" Value="NoResize"/>
+            <Setter Property="ShowInTaskbar" Value="False"/>
+            <Setter Property="SizeToContent" Value="WidthAndHeight"/>
+            <Setter Property="ScrollViewer.VerticalScrollBarVisibility" Value="Visible"/>
+
+        </Style>
+    </prism:Dialog.WindowStyle>
     <Grid>
         <ContentControl prism:RegionManager.RegionName="{x:Static core:RegionNames.ContentRegion}"/>
     </Grid>

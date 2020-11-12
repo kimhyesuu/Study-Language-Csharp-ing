@@ -7,8 +7,6 @@
 
     public class LocalizedDescriptionAttribute : DescriptionAttribute
     {
-        //스레드가 읽어주나?
-
         ResourceManager _resourceManager;
         private readonly string _resourceKey;
 

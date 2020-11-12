@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1267
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnumProject", "EnumProject\EnumProject.csproj", "{6619E72B-340A-4B3A-B2AC-C5E8F7EC7D94}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BindingComboBox", "..\BindingComboBox.csproj", "{ABE7EDE8-EB09-4588-A074-E8907794EE5B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LocalizeDatesNumTextDirection", "..\..\LocalizeDatesNumTextDirection\LocalizeDatesNumTextDirection.csproj", "{C875D438-4FC5-43FB-9646-1A8CBA9982A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LocalizeEnums", "..\..\LocalizeEnums\LocalizeEnums.csproj", "{DC5BEE20-B4F0-4D11-AD64-0FCF50568603}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6619E72B-340A-4B3A-B2AC-C5E8F7EC7D94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6619E72B-340A-4B3A-B2AC-C5E8F7EC7D94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6619E72B-340A-4B3A-B2AC-C5E8F7EC7D94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6619E72B-340A-4B3A-B2AC-C5E8F7EC7D94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABE7EDE8-EB09-4588-A074-E8907794EE5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABE7EDE8-EB09-4588-A074-E8907794EE5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABE7EDE8-EB09-4588-A074-E8907794EE5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABE7EDE8-EB09-4588-A074-E8907794EE5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C875D438-4FC5-43FB-9646-1A8CBA9982A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C875D438-4FC5-43FB-9646-1A8CBA9982A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C875D438-4FC5-43FB-9646-1A8CBA9982A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C875D438-4FC5-43FB-9646-1A8CBA9982A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC5BEE20-B4F0-4D11-AD64-0FCF50568603}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC5BEE20-B4F0-4D11-AD64-0FCF50568603}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC5BEE20-B4F0-4D11-AD64-0FCF50568603}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC5BEE20-B4F0-4D11-AD64-0FCF50568603}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {027BB5E5-E0B9-46E3-8255-CAFF9E4D9A99}
+	EndGlobalSection
+EndGlobal

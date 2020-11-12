@@ -11,7 +11,6 @@
             p.Add("message", message);
 
             dialogService.ShowDialog("MessageDialog", p, callback);
-
         }
 
         // 여러 개 쓸 수 있음

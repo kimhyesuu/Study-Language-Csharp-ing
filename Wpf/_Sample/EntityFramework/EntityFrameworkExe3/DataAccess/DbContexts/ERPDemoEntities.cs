@@ -20,7 +20,7 @@ namespace DataAccess.DbContexts
          //modelBuilder.Configurations.Add(new ProductConfigure());
          //modelBuilder.Configurations.Add(new OrderConfigure());
       }
-      
+
       public DbSet<DAccountInfo> dAccountInfo { get; set; }
 
       public DbSet<DOrder> dOrder { get; set; }
