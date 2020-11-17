@@ -51,6 +51,7 @@ namespace UsingTimestamp
 
       static void Main(string[] args)
       {
+         var sb = new StringBuilder();
       }
    }
 }
