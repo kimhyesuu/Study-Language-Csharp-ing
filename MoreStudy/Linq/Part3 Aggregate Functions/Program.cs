@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq;
 
-namespace Part3_Aggregate_Functions
+namespace Part_3_Aggregate_Functions
 {
    class Program
    {
