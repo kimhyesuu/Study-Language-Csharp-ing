@@ -1,0 +1,36 @@
+﻿<Window x:Class="Behavior.MainWindow"
+          xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:converter ="clr-namespace:Behavior.Converters"
+        xmlns:viewModel ="clr-namespace:Behavior.ViewModels"
+        Title="StudentView" Height="300" Width="555">
+    <Window.Resources>
+        <converter:StudentConverter x:Key="studentParameterConverter" />
+    </Window.Resources>
+    <Window.DataContext>
+        <viewModel:MainViewModel />
+    </Window.DataContext>
+    <Grid>
+        <Label Content="First Name" Height="32" HorizontalAlignment="Left" Margin="13,11,0,0" Name="label1" VerticalAlignment="Top" Width="127" />
+        <TextBox Height="32" HorizontalAlignment="Left" Margin="148,10,0,0" Name="textBoxFirstName" VerticalAlignment="Top" Width="349" >
+            <TextBox.Text>
+                <Binding Path="FirstName" UpdateSourceTrigger="Explicit" />
+            </TextBox.Text>
+        </TextBox>
+        <Label Content="Last Name" Height="32" HorizontalAlignment="Left" Margin="13,49,0,0" Name="label2" VerticalAlignment="Top" Width="127" />
+        <TextBox Height="32" HorizontalAlignment="Left" Margin="148,48,0,0" Name="textBoxLastName" VerticalAlignment="Top" Width="349" >
+            <TextBox.Text>
+                <Binding Path="LastName"  UpdateSourceTrigger="Explicit" />
+            </TextBox.Text>
+        </TextBox>
+        <Button Content="Save" Height="30" HorizontalAlignment="Left" Margin="148,86,0,0" Name="button1" VerticalAlignment="Top" Width="153" 
+               Command="{Binding SaveCommand}" >
+            <Button.CommandParameter>
+                <MultiBinding Converter="{StaticResource studentParameterConverter}">
+                    <Binding ElementName="textBoxFirstName" Path="Text" />
+                    <Binding ElementName="textBoxLastName" Path="Text" />
+                </MultiBinding>
+            </Button.CommandParameter>
+        </Button>
+    </Grid>
+</Window>

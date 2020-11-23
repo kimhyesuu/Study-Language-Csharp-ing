@@ -55,6 +55,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ListViewDemo1", "ListViewDe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListViewDemo1", "ListView\Demo\ListViewDemo1\ListViewDemo1.csproj", "{095FC745-6473-472E-8942-3C5E124BE96D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextBoxAndDataGrid", "DataGrid\TextBoxAndDataGrid\TextBoxAndDataGrid.csproj", "{5BFDC992-D71E-445F-8D53-E8D2EEEC78B7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -129,6 +131,10 @@ Global
 		{095FC745-6473-472E-8942-3C5E124BE96D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{095FC745-6473-472E-8942-3C5E124BE96D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{095FC745-6473-472E-8942-3C5E124BE96D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BFDC992-D71E-445F-8D53-E8D2EEEC78B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BFDC992-D71E-445F-8D53-E8D2EEEC78B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BFDC992-D71E-445F-8D53-E8D2EEEC78B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BFDC992-D71E-445F-8D53-E8D2EEEC78B7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -152,6 +158,7 @@ Global
 		{EAB7C2F2-A16C-4EB0-A2BE-1F3182C3F602} = {5D6FBACB-87A1-4382-B171-3CF137DB3DDD}
 		{A05F373C-D81C-49DF-AE85-C3818B0CE727} = {C350569F-37CA-4AAF-B8E4-4D82B6108756}
 		{095FC745-6473-472E-8942-3C5E124BE96D} = {A05F373C-D81C-49DF-AE85-C3818B0CE727}
+		{5BFDC992-D71E-445F-8D53-E8D2EEEC78B7} = {8D25FCE0-5A67-4689-AA0D-B9B0A1C22A50}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EBFBAB23-F835-4DE8-B9A2-17862BFED4F6}
