@@ -36,6 +36,8 @@ namespace Client_Exe
       private void Form1_Load(object sender, EventArgs e)
       {
          IPAddress iP = IPAddress.Parse("172.30.1.47");
+
+         // 중요 
          _tcpListener = new TcpListener(iP,8380);
          _tcpListener.Start();
 
@@ -53,6 +55,8 @@ namespace Client_Exe
 
       private void btn_Connect_Click(object sender, EventArgs e)
       {
+
+         // 무한 루프를 스레드 돌릴 것입니다. 
          _tcpClient = _tcpListener.AcceptTcpClient();
 
          if(_tcpClient.Connected)
