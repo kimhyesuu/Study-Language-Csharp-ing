@@ -46,6 +46,7 @@ namespace ListViewDemo1
             _itemHandler.Add(new Item("Sammy Doe", "45"));
         }
 
+		// 이렇게 잡는 것
         public List<Item> Items
         {
             get { return _itemHandler.Items; }

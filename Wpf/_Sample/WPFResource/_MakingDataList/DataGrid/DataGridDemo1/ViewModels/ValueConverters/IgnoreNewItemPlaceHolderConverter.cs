@@ -1,14 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Data;
 
 namespace DataGridDemo1.ViewModels.ValueConverters
 {
-    public class IgnoreNewItemPlaceHolderConverter : IValueConverter
+	public class IgnoreNewItemPlaceHolderConverter : IValueConverter
     {
         /// <summary>
         /// Workaround for a bug in the WPF DataGrid (WPF Toolkit version).

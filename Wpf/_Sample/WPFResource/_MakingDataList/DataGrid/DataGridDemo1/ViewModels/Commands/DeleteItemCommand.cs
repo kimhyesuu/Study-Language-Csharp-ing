@@ -26,6 +26,7 @@ namespace DataGridDemo1.ViewModels.Commands
         /// <summary>
         /// Whether this command can be executed.
         /// </summary>
+		  /// null이 아니면 하고 
         public bool CanExecute(object parameter)
         {
             return (m_ViewModel.SelectedItem != null);
@@ -43,6 +44,7 @@ namespace DataGridDemo1.ViewModels.Commands
         /// <summary>
         /// Invokes this command to perform its intended task.
         /// </summary>
+		  /// // 실행
         public void Execute(object parameter)
         {
             var selectedItem = m_ViewModel.SelectedItem;
