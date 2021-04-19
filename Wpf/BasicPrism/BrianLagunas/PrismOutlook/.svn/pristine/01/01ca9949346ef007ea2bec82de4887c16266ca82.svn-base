@@ -1,0 +1,13 @@
+﻿<UserControl x:Class="PrismOutlook.Modules.Mail.Views.MessageReadOnlyView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:prism="http://prismlibrary.com/"
+             xmlns:ig="http://schemas.infragistics.com/xaml"
+             xmlns:igPrim="http://schemas.infragistics.com/xaml/primitives"
+             xmlns:converters="clr-namespace:PrismOutlook.Modules.Mail.Converters"
+             xmlns:controls="clr-namespace:PrismOutlook.Modules.Mail.Controls"
+             prism:ViewModelLocator.AutoWireViewModel="True">
+
+    <controls:MessageDisplayControl />
+
+</UserControl>
