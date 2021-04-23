@@ -1,0 +1,45 @@
+﻿@using Microsoft.AspNetCore.Identity
+
+@inject UserManager<Owner> UserManager
+
+@model PetDetailedViewModel
+
+@{
+    ViewData["Title"] = Model.Name + " Details";
+}
+
+
+<h2>@Model.Name</h2>
+
+<div>
+    <div>
+        <label asp-for="Name"></label>
+        <span>@Model.Name</span>
+    </div>
+    <div>
+        <label asp-for="Age"></label>
+        <span>@Model.Age year(s) old</span>
+    </div>
+    @if (Model.Description != null)
+    {
+        <div>
+            <label asp-for="Description"></label>
+            <span>@Model.Description</span>
+        </div>
+    }
+    <div>
+        <label asp-for="OwnerName"></label>
+        <span>@Model.OwnerName</span>
+    </div>
+    <div>
+        <label asp-for="OwnerUsername"></label>
+        <a asp-area="" asp-controller="Owner" asp-action="Details" asp-route-id="@Model.OwnerId">@Model.OwnerUsername</a>
+    </div>
+    @if (!Model.OwnerId.Equals(UserManager.GetUserId(User)))
+    {
+        <form asp-controller="Pet" asp-action="Like" method="post">
+            <input type="hidden" name="petId" value="@Model.Id" />
+            <button type="submit" class="btn btn-success">Like</button>
+        </form>
+    }
+</div>
