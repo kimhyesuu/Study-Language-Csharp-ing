@@ -1,0 +1,36 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:converters2="clr-namespace:Application.Users.Converters">
+
+    <converters2:UserRoleValueConverter x:Key="UserRoleValueConverter"/>
+
+    <converters2:IsNamedObjectVisibilityConverter x:Key="IsNamedObjectVisibilityConverter"/>
+    
+    <Style x:Key="CheckBoxColumnStyle" TargetType="{x:Type CheckBox}">
+        <!-- Standard WPF Properties -->
+        <Setter Property="IsHitTestVisible" Value="False"/>
+        <Setter Property="Focusable" Value="False"/>
+        <Setter Property="HorizontalAlignment" Value="Center"/>
+        <Setter Property="VerticalAlignment" Value="Top"/>
+
+        <!-- Add check box visibility handling -->
+        <Setter Property="Visibility"
+                Value="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType=DataGridRow}, Path=DataContext, Converter={StaticResource IsNamedObjectVisibilityConverter}}"/>
+    </Style>
+
+    <ControlTemplate x:Key="RowValidationErrorTemplate">
+        <Grid Margin="0,-2,0,-2"
+              ToolTip="{Binding RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type DataGridRow}}, Path=(Validation.Errors)[0].ErrorContent}">
+            <Ellipse StrokeThickness="0"
+                     Fill="Red"
+                     Width="{TemplateBinding FontSize}"
+                     Height="{TemplateBinding FontSize}" />
+            <TextBlock Text="!"
+                       FontSize="{TemplateBinding FontSize}"
+                       FontWeight="Bold"
+                       Foreground="White"
+                       HorizontalAlignment="Center"  />
+        </Grid>
+    </ControlTemplate>
+
+</ResourceDictionary>

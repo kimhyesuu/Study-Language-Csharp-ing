@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Application\Application.csproj", "{21CB9DCF-95AF-48F5-801D-A3091C41805D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ViewModel", "ViewModel\ViewModel.csproj", "{373F19CD-5BFB-4E48-AEDD-9332E1DDA446}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataModel", "DataModel\DataModel.csproj", "{95218BC9-4D11-4E75-8016-3D21FC165144}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmallApplicationFramework", "SmallApplicationFramework\SmallApplicationFramework.csproj", "{C0998C31-91AA-41E6-9271-8492FD10F731}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmallApplicationFramework.Wpf", "SmallApplicationFramework.Wpf\SmallApplicationFramework.Wpf.csproj", "{76822843-E4EB-45A2-985C-842C4D0EA24C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{63A910CE-6E80-4092-ABCF-65151A9E9C07}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{21CB9DCF-95AF-48F5-801D-A3091C41805D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21CB9DCF-95AF-48F5-801D-A3091C41805D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21CB9DCF-95AF-48F5-801D-A3091C41805D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21CB9DCF-95AF-48F5-801D-A3091C41805D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{373F19CD-5BFB-4E48-AEDD-9332E1DDA446}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{373F19CD-5BFB-4E48-AEDD-9332E1DDA446}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{373F19CD-5BFB-4E48-AEDD-9332E1DDA446}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{373F19CD-5BFB-4E48-AEDD-9332E1DDA446}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95218BC9-4D11-4E75-8016-3D21FC165144}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95218BC9-4D11-4E75-8016-3D21FC165144}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95218BC9-4D11-4E75-8016-3D21FC165144}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95218BC9-4D11-4E75-8016-3D21FC165144}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0998C31-91AA-41E6-9271-8492FD10F731}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0998C31-91AA-41E6-9271-8492FD10F731}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0998C31-91AA-41E6-9271-8492FD10F731}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0998C31-91AA-41E6-9271-8492FD10F731}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76822843-E4EB-45A2-985C-842C4D0EA24C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76822843-E4EB-45A2-985C-842C4D0EA24C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76822843-E4EB-45A2-985C-842C4D0EA24C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76822843-E4EB-45A2-985C-842C4D0EA24C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

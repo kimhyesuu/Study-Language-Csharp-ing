@@ -1,0 +1,45 @@
+﻿<UserControl x:Class="Application.Users.UserGridView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:i="clr-namespace:System.Windows.Interactivity;assembly=System.Windows.Interactivity"
+             xmlns:interactionRequest="clr-namespace:SmallApplicationFramework.Wpf.InteractionRequest;assembly=SmallApplicationFramework.Wpf"
+             xmlns:actions="clr-namespace:Application.Users.Actions"
+             xmlns:users="clr-namespace:ViewModel.Users;assembly=ViewModel"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300">
+
+    <i:Interaction.Triggers>
+        <interactionRequest:InteractionRequestTrigger SourceObject="{Binding Path=AddTextColumnRequest,
+                                                      Source={x:Static users:DataColumnService.Instance}}">
+            <actions:AddTextColumnAction/>
+        </interactionRequest:InteractionRequestTrigger>
+
+        <interactionRequest:InteractionRequestTrigger SourceObject="{Binding Path=AddDynamicColumnRequest,
+                                                      Source={x:Static users:DataColumnService.Instance}}">
+            <actions:AddDynamicColumnAction/>
+        </interactionRequest:InteractionRequestTrigger>
+
+        <interactionRequest:InteractionRequestTrigger SourceObject="{Binding Path=ChangeDynamicColumnRequest,
+                                                      Source={x:Static users:DataColumnService.Instance}}">
+            <actions:ChangeDynamicColumnAction/>
+        </interactionRequest:InteractionRequestTrigger>
+
+        <interactionRequest:InteractionRequestTrigger SourceObject="{Binding Path=DeleteDynamicColumnRequest,
+                                                      Source={x:Static users:DataColumnService.Instance}}">
+            <actions:DeleteDynamicColumnAction/>
+        </interactionRequest:InteractionRequestTrigger>
+    </i:Interaction.Triggers>
+
+    <GroupBox x:Name="UsersGroupBox"
+              Grid.Column="0"
+              Header="User Role Assignment">
+        <DataGrid x:Name="DataGridUsers"
+                  ItemsSource="{Binding UserDisplayItems}"
+                  AutoGenerateColumns="False"
+                  EnableRowVirtualization="False"
+                  CanUserAddRows="True"
+                  RowValidationErrorTemplate="{StaticResource RowValidationErrorTemplate}"/>
+    </GroupBox>
+</UserControl>
